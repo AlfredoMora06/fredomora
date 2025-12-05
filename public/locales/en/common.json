@@ -1,0 +1,104 @@
+{
+  "About": {
+    "firstParagraph": "I am the son of Mexican immigrants. I grew up in Astoria, NY until 2010. After that, I moved to Mexico with my family where I spent the next 6 years living in Oaxaca - going to school and experiencing everyday life there. At the age of 16 in 2015 - I decided to make the jump and achieve the American Dream and move to NYC. I finished high school there and in 2021 - midst pandemic - I graduated from Hunter College with a B.S. in Computer Science.",
+    "secondParagraph": "In 2021, I began my internship with TracFlo a construction-tech company looking to revolutinize one of the least digitized spaces in the world. After 6 months of working with them and being part of their incredible journey, we decided to make the transition into full-time. I began working with TracFlo as a Software Engineer in the beginning of 2022.",
+    "thirdParagraph": "A partir de marzo del 2024, he estado trabajando en Wildfire Systems Inc, ampliando mis habilidades de ingeniería de software al ámbito de Chrome, Safari y las extensiones móviles. Entrando en un rol en el que desarrollo nuevas herramientas y procesos a lo largo del camino.",
+    "fourthParagraph": "My dream is to better my software engineering skills a bit each day and help out my community in the U.S and in Mexico, in any way I can. In my spare time, you can find me playing soccer, trying new food around Queens, or backpacking across Western Europe.",
+    "WorkCard": {
+      "apprenticeship": "Apprenticeship",
+      "baComputerScience": "B.A. Computer Science",
+      "computerLabAssistant": "Computer Lab Assistant",
+      "computerScienceTutor": "Computer Science Tutor",
+      "workTitle": "Work",
+      "educationTitle": "Education",
+      "volunteerTitle": "Volunteer",
+      "productManagementCourse": "Product Management Course",
+      "softwareEngineer": "Software Engineer",
+      "softwareEngineerI": "Software Engineer I",
+      "softwareEngineerII": "Software Engineer II",
+      "softwareEngineerIntern": "Software Engineer Intern",
+      "Dates": {
+        "wildfire": "Mar 2024 - Present",
+        "tracflo3": "Sep 2023 - Feb 2024",
+        "tracflo2": "Jan 2022 - Aug 2023",
+        "tracflo1": "Jun 2021 - Dec 2021",
+        "cunyK": "Sep 2019 - Jun 2021",
+        "inTheLab": "Sep 2023 - Present",
+        "ctp": "Aug 2020 - May 2021",
+        "hunter": "Aug 2017 - May 2021",
+        "teals": "May 2019 - Jun 2021"
+      }
+    }
+  },
+  "Footer": {
+    "contact": "Contact",
+    "social": "Social"
+  },
+  "Home": {
+    "clickMe": "Click Me!",
+    "firstParagraph": "¡Hola mi gente! I'm Alfredo, a fullstack software engineer who likes frontend and working with product teams. I am passionate about creating tools, learning new technologies, and being able to take ideas from one area of ​​knowledge to extrapolate them and apply them in another.",
+    "secondParagraph": "I specialize on building blazing fast web applications with React, Redux, NodeJS and Express.Js contributing across the stack with a frontend focus.",
+    "ContactMeForm": {
+      "cancel": "Cancel",
+      "fromName": "Your Name *",
+      "fromNameRequired": "Name Required",
+      "invalidEmail": "Invalid Email",
+      "message": "Message *",
+      "messageRequired": "Message Required",
+      "phone": "Phone Number (Optional)",
+      "replyTo": "Email *",
+      "replyToRequired": "Email Required",
+      "subject": "Subject *",
+      "subjectRequired": "Subject Required",
+      "submit": "Send Email",
+      "title": "Shoot me a message! Let's Connect!",
+      "sendFail": "There was an error, please try again later.",
+      "sendSuccess": "Email sent successfully."
+    },
+    "ThankYou": {
+      "title": "",
+      "firstSentence": "Thanks for reaching out!",
+      "secondSentence": "I will get back to you shortly!"
+    }
+  },
+  "Navbar": {
+    "about": "About Me",
+    "home": "Home",
+    "language": "Language",
+    "projects": "Projects",
+    "resume": "Resume",
+    "photography": "Photography"
+  },
+  "Photography": {
+    "subtitle": "Memories frozen in time, some tell stories, some solo me gustan...",
+    "title": "Photography",
+    "PhotoTabs": {
+      "all": "All",
+      "film": "Film",
+      "portraits": "Portraits"
+    }
+  },
+  "Projects": {
+    "subtitle": "A collection of programming work I've done. Enjoy!",
+    "title": "These Are My Projects!",
+    "SingleProject": {
+      "code": "Code",
+      "demo": "Demo",
+      "myRole": "My Role",
+      "earworm": "I led the design and development of the user interface using Figma, React.js as well as Recharts and Tailwind to display data and information in a fluid and pleasing manner. I also helped web scrape the information seen on the billboard Top 200 as far back as 1970, with Python.",
+      "earwormDesc": "A music visualization and exploration tool based on Billboard’s Year-End charts from 1970-2020. Provides an overview of the albums on every chart year as well as data visualization to offer insights on the way music trends develop over time.",
+      "cuny-hub": "Developed a web application with a group of 3 for a research project which provides CUNY related information to incoming or enrolled CUNY students which include: Fun Facts, Contact Information, Campus Map using Leaflet, School Expenses, Available Courses, Majors, Programs, Degrees, etc. Lead the frontend development using R Shiny with a MySQL backend. Implemented MySQL to query the normalized data and find relevant information to display and for comparisons",
+      "cuny-hubDesc": "A hub for CUNY School information and relations between CUNY schools. Attending NYC high schools we noticed there isn’t somewhere we can find info on CUNY schools all in one place. It’s hard to find what you’re looking for if you don’t know where to look.",
+      "recipe-finder": "Implemented a web application with a team of four that allows users to search recipes based on the ingredients they have at their disposal. Lead the design and development of the user interface using HTML, CSS, and JavaScript to accommodate navigability and user’s recipe searches.",
+      "recipe-finderDesc": "You don't know what to cook? RecipeFinder finds it for you! Recipe Finder allows you to search recipes based on the ingredients you have to your disposal. By registering with us, you can save recipes you like for future reference, and also order recipes from our store of recipes.",
+      "cuny-yak": "Implemented a social media based chat room with a team of three for users within NYC as well as college students in CUNY colleges. Students can use chat rooms anywhere, but the homepage is for those in NYC for geolocation based talks. Created and formed a database using Firebase to store user login information and chat room posts. Implemented the design of the web application to accommodate the needs for PC use using HTML, CSS and Javascript.",
+      "cuny-yakDesc": "For people who need someone to talk to in a local radius. A social media based app to satisfy the theme of helping with the transitioning from work to the home. The application has the user post thoughts like a discussion post.",
+      "green-print": "Project was created as a submission for the Lehman College Hackathon with a group of three. I was in charge of analyzing, aggregating, and wrangling a 16,000 line dataset with Python and pandas. Engineered an algorithm that detected the amount of CO2 emitted by a specific vehicle.",
+      "green-printDesc": "What's your green print in the world? An under-construction web application built with Flask that traces individual carbon emissions (CO2 levels) for household products and vehicles, and returns their carbon footprint.",
+      "creativo": "This is an HTML/CSS website built to show MEDP 150 class content. It is a site that showcases creative tasks that involve anything from creating posters using common art methodologies as well as photoshopping images. Created a small HTML game that I hope to display here shortly.",
+      "creativoDesc": "A website that shows photos of NYC and a blog of responses towards Media articles of our current lives. This is an HTML/CSS website built to show MEDP 150 class content.",
+      "jarryfall": "I was in charge of bringing the design to life for this freelance project in where I captured Jarry Fall's design essence and was able to add my Frontend expertise as well to her portfolio. The portfolio contains individual projects she has worked on, her story and career history, as well as new ideas she continues to put out into the world.",
+      "jarryfallDesc": "This is a website built with React, Material-UI, and deployed on Vercel, created for Jarry Fall to showcase her work and journey as a UI/UX Designer."
+    }
+  }
+}

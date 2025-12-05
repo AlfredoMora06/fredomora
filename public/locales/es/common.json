@@ -1,0 +1,104 @@
+{
+  "About": {
+    "firstParagraph": "Soy hijo de inmigrantes mexicanos. Crecí en Astoria, Nueva York hasta 2010. Después de eso, me mudé a México con mi familia, donde pasé los siguientes 6 años viviendo en Oaxaca, yendo a la escuela y experimentando la vida cotidiana allí. A la edad de 16 años en 2015, decidí dar el salto y lograr el sueño americano y mudarme a Nueva York. Terminé la escuela secundaria allí y en 2021, en medio de una pandemia, me gradué del Hunter College con una licenciatura. en Ciencias de la Computación.",
+    "secondParagraph": "En 2021, comencé mi pasantía en TracFlo, una empresa de tecnología de la construcción que busca revolucionar uno de los espacios menos digitalizados del mundo. Después de 6 meses de trabajar con ellos y ser parte de su increíble viaje, decidimos hacer la transición a tiempo completo. Comencé a trabajar con TracFlo como ingeniero de software a principios de 2022.",
+    "thirdParagraph": "As of March 2024, I've been working at Wildfire Systems Inc, expanding my software engineering skills onto the realm of chrome, safari, and mobile extensions. Entering a role where I build new tools and processes along the way.",
+    "fourthParagraph": "Mi sueño es mejorar un poco mis habilidades de ingeniería de software cada día y ayudar a mi comunidad en Estados Unidos y México, en todo lo que pueda. En mi tiempo libre, puedes encontrarme jugando fútbol, ​​probando comida nueva en Queens o viajando con mochila por Europa.",
+    "WorkCard": {
+      "apprenticeship": "Aprendizaje",
+      "baComputerScience": "Licenciatura en Ciencias de la Computación",
+      "computerLabAssistant": "Asistente de Laboratorio de Computación",
+      "computerScienceTutor": "Tutor de Informática",
+      "workTitle": "Trabajo",
+      "educationTitle": "Educación",
+      "volunteerTitle": "Voluntario",
+      "productManagementCourse": "Curso de Gestión de Producto",
+      "softwareEngineer": "Ingeniero de Software",
+      "softwareEngineerI": "Ingeniero de Software I",
+      "softwareEngineerII": "Ingeniero de Software II",
+      "softwareEngineerIntern": "Ingeniero de Software Pasante",
+      "Dates": {
+        "wildfire": "Mar 2024 - Actualidad",
+        "tracflo3": "Sep 2023 - Feb 2024",
+        "tracflo2": "Ene 2022 - Aug 2023",
+        "tracflo1": "Jun 2021 - Dic 2021",
+        "cunyK": "Sep 2019 - Jun 2021",
+        "inTheLab": "Sep 2023 - Actualidad",
+        "ctp": "Aug 2020 - Mayo 2021",
+        "hunter": "Aug 2017 - Mayo 2021",
+        "teals": "Mayo 2019 - Jun 2021"
+      }
+    }
+  },
+  "Footer": {
+    "contact": "Contacto",
+    "social": "Redes"
+  },
+  "Home": {
+    "clickMe": "¡Presiona sobre mí!",
+    "firstParagraph": "¡Hola mi gente! Yo soy Alfredo, un ingeniero de software fullstack al que le gusta el frontend y trabajar con equipos de producto. Me apasiona crear herramientas, aprender nuevas tecnologías y poder tomar ideas de un área del conocimiento para extrapolarlas y aplicarlas en otra.",
+    "secondParagraph": "Me especializo en crear aplicaciones web ultrarrápidas con React, Redux, NodeJS y Express.Js contribuyendo en todo el conjunto con un enfoque frontend.",
+    "ContactMeForm": {
+      "cancel": "Cancelar",
+      "fromName": "Su Nombre *",
+      "fromNameRequired": "Nombre Requerido",
+      "invalidEmail": "Correo Electrónico Inválido",
+      "message": "Mensaje *",
+      "messageRequired": "Mensaje Requerido",
+      "phone": "Numero de Teléfono (Opcional)",
+      "replyTo": "Correo Electrónico *",
+      "replyToRequired": "Correo Electrónico Requerido",
+      "subject": "Sujeto *",
+      "subjectRequired": "Sujeto Requerido",
+      "submit": "Enviar Correo",
+      "title": "¡Envíeme un mensaje! ¡Conectémonos!",
+      "sendFail": "Se produjo un error, inténtelo nuevamente más tarde.",
+      "sendSuccess": "Correo electrónico enviado exitosamente."
+    },
+    "ThankYou": {
+      "title": "",
+      "firstSentence": "¡Gracias por comunicarte conmigo!",
+      "secondSentence": "¡Me pondré en contacto con usted en breve!"
+    }
+  },
+  "Navbar": {
+    "about": "Sobre Mi",
+    "home": "Inicio",
+    "language": "Idioma",
+    "projects": "Proyectos",
+    "resume": "Currículum",
+    "photography": "Fotografía"
+  },
+  "Photography": {
+    "subtitle": "Recuerdos congelados con el tiempo, algunos cuentan historias, otros solo me gustan...",
+    "title": "Fotografía",
+    "PhotoTabs": {
+      "all": "Todo",
+      "film": "Filmográfica",
+      "portraits": "Retratos"
+    }
+  },
+  "Projects": {
+    "subtitle": "Una colección de trabajos de programación que he realizado. ¡Disfruta!",
+    "title": "Estos son mis proyectos!",
+    "SingleProject": {
+      "code": "Código",
+      "demo": "Demostración",
+      "myRole": "Mi Papel",
+      "earworm": "Dirigí el diseño y desarrollo del interfaz de usuario utilizando Figma, React.js así como Recharts y Tailwind para mostrar datos e información de una manera fluida y agradable. También ayudé a extraer de la web la información que se ve en la cartelera Top 200 desde 1970, con Python.",
+      "earwormDesc": "Una herramienta de exploración y visualización de música basada en las listas de fin de año de Billboard de 1970 a 2020. Proporciona una descripción general de los álbumes de cada año en las listas, así como visualización de datos para ofrecer información sobre la forma en que se desarrollan las tendencias musicales a lo largo del tiempo.",
+      "cuny-hub": "Desarrollé una aplicación web con un grupo de 3 para un proyecto de investigación que proporciona información relacionada con CUNY a estudiantes entrantes o inscritos en CUNY que incluye: datos curiosos, información de contacto, mapa del campus mediante folleto, gastos escolares, cursos disponibles, especializaciones, programas, títulos, etc. Liderar el desarrollo del frontend utilizando R Shiny con un backend MySQL. Implementé MySQL para consultar los datos normalizados y encontrar información relevante para mostrar y comparar.",
+      "cuny-hubDesc": "Un centro de información y relaciones entre las escuelas CUNY. Al asistir a las escuelas secundarias de la ciudad de Nueva York, notamos que no hay ningún lugar donde podamos encontrar información sobre las escuelas CUNY en un solo lugar. Es difícil encontrar lo que buscas si no sabes dónde buscar.",
+      "recipe-finder": "Implementé una aplicación web con un equipo de cuatro personas que permite a los usuarios buscar recetas en función de los ingredientes que tienen a su disposición. Liderar el diseño y desarrollo de la interfaz de usuario utilizando HTML, CSS y JavaScript para adaptarse a la navegabilidad y las búsquedas de recetas del usuario.",
+      "recipe-finderDesc": "¿No sabes qué cocinar? ¡RecetaFinder lo encuentra por ti! Recipe Finder te permite buscar recetas en función de los ingredientes que tienes a tu disposición. Al registrarse con nosotros, puede guardar las recetas que le gusten para consultarlas en el futuro y también solicitar recetas en nuestra tienda de recetas.",
+      "cuny-yak": "Implementé una sala de chat basada en redes sociales con un equipo de tres para usuarios dentro de la ciudad de Nueva York, así como para estudiantes universitarios en las universidades de CUNY. Los estudiantes pueden usar salas de chat en cualquier lugar, pero la página de inicio es para aquellos en Nueva York para charlas basadas en geolocalización. Creé y formé una base de datos usando Firebase para almacenar información de inicio de sesión de usuarios y publicaciones en salas de chat. Implementé el diseño de la aplicación web para acomodar las necesidades de uso de PC usando HTML, CSS y Javascript.",
+      "cuny-yakDesc": "Para personas que necesitan alguien con quien hablar en un radio local. Una aplicación basada en redes sociales para satisfacer el tema de ayudar con la transición del trabajo al hogar. La aplicación hace que el usuario publique pensamientos como una publicación de discusión.",
+      "green-print": "El proyecto se creó como una presentación para el Hackathon de Lehman College con un grupo de tres. Estuve a cargo de analizar, agregar y gestionar un conjunto de datos de 16.000 líneas con Python y pandas. Diseñó un algoritmo que detectaba la cantidad de CO2 emitida por un vehículo específico.",
+      "green-printDesc": "¿Cuál es tu huella verde en el mundo? Una aplicación web en construcción creada con Flask que rastrea las emisiones de carbono individuales (niveles de CO2) de productos para el hogar y vehículos, y devuelve su huella de carbono.",
+      "creativo": "Este es un sitio web HTML/CSS creado para mostrar contenido de la clase MEDP 150. Es un sitio que muestra tareas creativas que involucran desde la creación de carteles utilizando metodologías artísticas comunes hasta imágenes de photoshop. Creé un pequeño juego HTML que espero mostrar aquí en breve.",
+      "creativoDesc": "Un sitio web que muestra fotos de Nueva York y un blog de respuestas a artículos de los medios sobre nuestra vida actual. Este es un sitio web HTML/CSS creado para mostrar contenido de la clase MEDP 150.",
+      "jarryfall": "Estuve a cargo de darle vida al diseño de este proyecto independiente en el que capturé la esencia del diseño de Jarry Fall y pude agregar mi experiencia en Frontend a su cartera. La cartera contiene proyectos individuales en los que ha trabajado , su historia y trayectoria profesional, así como las nuevas ideas que continúa presentando al mundo.",
+      "jarryfallDesc": "Este es un sitio web creado con React, Material-UI e implementado en Vercel, creado para Jarry Fall para mostrar su trabajo y trayectoria como diseñadora UI/UX"
+    }
+  }
+}
