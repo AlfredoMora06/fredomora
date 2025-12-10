@@ -310,13 +310,15 @@ __turbopack_context__.s([
     ()=>WorkCard
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.mjs [app-ssr] (ecmascript)");
 'use client';
 ;
 ;
+;
 function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTitle, resumeLabel, resumeUrl, linkedInUrl, workExperiences, educationExperiences, volunteerExperiences }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "w-full max-w-md rounded-xl border border-white/40 bg-[#24242c] shadow-[0_5px_0_rgba(230,232,230,0.1)] p-4 md:p-6",
+        className: "w-full max-w-md rounded-xl border border-white/40 bg-[#24242c] p-4 shadow-[0_5px_0_rgba(230,232,230,0.1)] md:p-6",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex items-center justify-between gap-4 pb-2",
@@ -328,7 +330,7 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                                 className: "text-[#E6E8E6]"
                             }, void 0, false, {
                                 fileName: "[project]/components/WorkCard.tsx",
-                                lineNumber: 45,
+                                lineNumber: 46,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -336,13 +338,13 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                                 children: workSectionTitle
                             }, void 0, false, {
                                 fileName: "[project]/components/WorkCard.tsx",
-                                lineNumber: 46,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/WorkCard.tsx",
-                        lineNumber: 44,
+                        lineNumber: 45,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -352,47 +354,47 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                                 href: resumeUrl,
                                 target: "_blank",
                                 rel: "noopener noreferrer",
-                                className: "text-xs font-medium text-white hover:text-[#E05437] transition-colors",
+                                className: "text-xs font-medium text-white transition-colors hover:text-[#E05437]",
                                 children: resumeLabel
                             }, void 0, false, {
                                 fileName: "[project]/components/WorkCard.tsx",
-                                lineNumber: 52,
+                                lineNumber: 53,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 type: "button",
                                 "aria-label": "Open LinkedIn",
                                 onClick: ()=>window.open(linkedInUrl, '_blank'),
-                                className: "text-white hover:text-[#E05437] transition-colors",
+                                className: "text-white transition-colors hover:text-[#E05437]",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaLinkedin"], {
                                     size: 18
                                 }, void 0, false, {
                                     fileName: "[project]/components/WorkCard.tsx",
-                                    lineNumber: 67,
+                                    lineNumber: 68,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/WorkCard.tsx",
-                                lineNumber: 61,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/WorkCard.tsx",
-                        lineNumber: 51,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 43,
+                lineNumber: 44,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ExperienceSection, {
                 experiences: workExperiences
             }, void 0, false, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 73,
+                lineNumber: 74,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -401,12 +403,12 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                     className: "h-px w-4/5 bg-[#E6E8E6]/40"
                 }, void 0, false, {
                     fileName: "[project]/components/WorkCard.tsx",
-                    lineNumber: 77,
+                    lineNumber: 78,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 76,
+                lineNumber: 77,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -416,7 +418,7 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                         className: "text-[#E6E8E6]"
                     }, void 0, false, {
                         fileName: "[project]/components/WorkCard.tsx",
-                        lineNumber: 82,
+                        lineNumber: 83,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -424,20 +426,20 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                         children: educationSectionTitle
                     }, void 0, false, {
                         fileName: "[project]/components/WorkCard.tsx",
-                        lineNumber: 83,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 81,
+                lineNumber: 82,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ExperienceSection, {
                 experiences: educationExperiences
             }, void 0, false, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 88,
+                lineNumber: 89,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -446,12 +448,12 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                     className: "h-px w-4/5 bg-[#E6E8E6]/40"
                 }, void 0, false, {
                     fileName: "[project]/components/WorkCard.tsx",
-                    lineNumber: 92,
+                    lineNumber: 93,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 91,
+                lineNumber: 92,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -461,7 +463,7 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                         className: "text-[#E6E8E6]"
                     }, void 0, false, {
                         fileName: "[project]/components/WorkCard.tsx",
-                        lineNumber: 97,
+                        lineNumber: 98,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -469,26 +471,26 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                         children: volunteerSectionTitle
                     }, void 0, false, {
                         fileName: "[project]/components/WorkCard.tsx",
-                        lineNumber: 98,
+                        lineNumber: 99,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 96,
+                lineNumber: 97,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ExperienceSection, {
                 experiences: volunteerExperiences
             }, void 0, false, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 103,
+                lineNumber: 104,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/WorkCard.tsx",
-        lineNumber: 41,
+        lineNumber: 42,
         columnNumber: 5
     }, this);
 }
@@ -500,20 +502,20 @@ function ExperienceSection({ experiences }) {
                 className: "flex flex-col gap-3 md:flex-row",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "md:w-1/5 flex items-start",
-                        children: image ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        className: "flex items-start md:w-1/5",
+                        children: image ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             src: image,
                             alt: workTitle,
                             loading: "lazy",
-                            className: "h-[45px] w-[45px] rounded-full border-[3px] border-[#9FB8AD] shadow-[5px_5px_rgba(159,184,173,0.3)] object-cover"
+                            className: "h-[45px] w-[45px] rounded-full border-[3px] border-[#9FB8AD] object-cover shadow-[5px_5px_rgba(159,184,173,0.3)]"
                         }, void 0, false, {
                             fileName: "[project]/components/WorkCard.tsx",
-                            lineNumber: 125,
+                            lineNumber: 126,
                             columnNumber: 15
                         }, this) : null
                     }, void 0, false, {
                         fileName: "[project]/components/WorkCard.tsx",
-                        lineNumber: 123,
+                        lineNumber: 124,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -524,7 +526,7 @@ function ExperienceSection({ experiences }) {
                                 children: workTitle
                             }, void 0, false, {
                                 fileName: "[project]/components/WorkCard.tsx",
-                                lineNumber: 136,
+                                lineNumber: 137,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -534,7 +536,7 @@ function ExperienceSection({ experiences }) {
                                         children: position
                                     }, void 0, false, {
                                         fileName: "[project]/components/WorkCard.tsx",
-                                        lineNumber: 140,
+                                        lineNumber: 141,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -542,30 +544,30 @@ function ExperienceSection({ experiences }) {
                                         children: date
                                     }, void 0, false, {
                                         fileName: "[project]/components/WorkCard.tsx",
-                                        lineNumber: 141,
+                                        lineNumber: 142,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/WorkCard.tsx",
-                                lineNumber: 139,
+                                lineNumber: 140,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/WorkCard.tsx",
-                        lineNumber: 135,
+                        lineNumber: 136,
                         columnNumber: 11
                     }, this)
                 ]
             }, `${workTitle}-${position}-${date}`, true, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 118,
+                lineNumber: 119,
                 columnNumber: 9
             }, this))
     }, void 0, false, {
         fileName: "[project]/components/WorkCard.tsx",
-        lineNumber: 116,
+        lineNumber: 117,
         columnNumber: 5
     }, this);
 }
