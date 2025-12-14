@@ -19,6 +19,7 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
     const [drawerOpen, setDrawerOpen] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
     const [languageMenuOpen, setLanguageMenuOpen] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
     const textColor = dark ? 'text-gray-100' : 'text-slate-900';
+    const hoverTextColor = dark ? 'hover:text-green-100' : 'hover:text-[#E05437]';
     const borderColor = dark ? 'border-gray-300' : 'border-slate-900';
     const iconColor = dark ? 'text-gray-100' : 'text-slate-800';
     const pages = [
@@ -61,12 +62,12 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                             children: "Alfredo Morales"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 41,
+                            lineNumber: 42,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 40,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -81,13 +82,6 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                     className: "block h-0.5 w-6 bg-current"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 59,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "mt-1 block h-0.5 w-6 bg-current"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/Navbar.tsx",
                                     lineNumber: 60,
                                     columnNumber: 13
                                 }, this),
@@ -97,16 +91,23 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                     fileName: "[project]/components/Navbar.tsx",
                                     lineNumber: 61,
                                     columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "mt-1 block h-0.5 w-6 bg-current"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.tsx",
+                                    lineNumber: 62,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 52,
+                            lineNumber: 53,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 51,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -117,22 +118,22 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                 // const active = location.pathname === page.link
                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: page.link,
-                                    className: `pb-1 text-base transition-all ${textColor} hover:text-green-100`,
+                                    className: `pb-1 text-base transition-all ${textColor} ${hoverTextColor}`,
                                     children: page.title
                                 }, page.link, false, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 71,
+                                    lineNumber: 72,
                                     columnNumber: 17
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 67,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 66,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, this),
                     showLanguage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -140,12 +141,12 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 type: "button",
-                                className: `${textColor} text-base`,
+                                className: `${textColor} text-base ${hoverTextColor} cursor-pointer`,
                                 onClick: ()=>setLanguageMenuOpen((prev)=>!prev),
                                 children: "Language"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 86,
+                                lineNumber: 87,
                                 columnNumber: 13
                             }, this),
                             languageMenuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -162,7 +163,7 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                                 className: "h-4 w-6"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 101,
+                                                lineNumber: 102,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -170,13 +171,13 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                                 children: "En"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 106,
+                                                lineNumber: 107,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 97,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -190,7 +191,7 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                                 className: "h-4 w-6"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 113,
+                                                lineNumber: 114,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -198,31 +199,31 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                                 children: "Es"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 118,
+                                                lineNumber: 119,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 108,
+                                        lineNumber: 109,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 95,
+                                lineNumber: 96,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 85,
+                        lineNumber: 86,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Navbar.tsx",
-                lineNumber: 38,
+                lineNumber: 39,
                 columnNumber: 7
             }, this),
             drawerOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -233,7 +234,7 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                         onClick: ()=>setDrawerOpen(false)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 130,
+                        lineNumber: 131,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -247,7 +248,7 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                 children: "×"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 140,
+                                lineNumber: 141,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -260,40 +261,40 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                                 children: page.title
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 152,
+                                                lineNumber: 153,
                                                 columnNumber: 21
                                             }, this)
                                         }, page.link, false, {
                                             fileName: "[project]/components/Navbar.tsx",
-                                            lineNumber: 151,
+                                            lineNumber: 152,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 149,
+                                    lineNumber: 150,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 148,
+                                lineNumber: 149,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 135,
+                        lineNumber: 136,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Navbar.tsx",
-                lineNumber: 128,
+                lineNumber: 129,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Navbar.tsx",
-        lineNumber: 37,
+        lineNumber: 38,
         columnNumber: 5
     }, this);
 }
@@ -348,7 +349,7 @@ function AlfredoHere({ firstParagraph, secondParagraph }) {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-lg md:text-xl leading-relaxed",
+                                    className: "text-lg leading-relaxed md:text-xl",
                                     children: firstParagraph
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/AlfredoHere.tsx",
@@ -357,15 +358,15 @@ function AlfredoHere({ firstParagraph, secondParagraph }) {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                    lineNumber: 37,
+                                    lineNumber: 39,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-lg md:text-xl leading-relaxed",
+                                    className: "text-lg leading-relaxed md:text-xl",
                                     children: secondParagraph
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                    lineNumber: 38,
+                                    lineNumber: 40,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -378,16 +379,16 @@ function AlfredoHere({ firstParagraph, secondParagraph }) {
                             className: `mt-0 flex justify-between ${isMobile ? 'pt-5' : ''}`,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "pt-10 w-1/3"
+                                    className: "w-1/3 pt-10"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                    lineNumber: 47,
+                                    lineNumber: 49,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "pt-10 w-1/3",
+                                    className: "w-1/3 pt-10",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "relative pb-[94.2%] overflow-hidden",
+                                        className: "relative overflow-hidden pb-[94.2%]",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             alt: "end-of-road.gif",
                                             src: "https://images.squarespace-cdn.com/content/v1/60133069ccdf254ecbbd6f57/1612120505252-ZWZI596X7SLPJS78VL4E/end-of-road.gif",
@@ -396,30 +397,30 @@ function AlfredoHere({ firstParagraph, secondParagraph }) {
                                             className: "absolute inset-0 h-[106%] w-full object-cover"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 55,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                        lineNumber: 52,
+                                        lineNumber: 54,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                    lineNumber: 51,
+                                    lineNumber: 53,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/AlfredoHere.tsx",
-                            lineNumber: 42,
+                            lineNumber: 46,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                             className: "border-t border-[#E05437]"
                         }, void 0, false, {
                             fileName: "[project]/components/sections/AlfredoHere.tsx",
-                            lineNumber: 65,
+                            lineNumber: 67,
                             columnNumber: 11
                         }, this)
                     ]
@@ -432,22 +433,22 @@ function AlfredoHere({ firstParagraph, secondParagraph }) {
                     className: "flex flex-col space-y-4",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col md:flex-row md:space-x-2 space-y-4 md:space-y-0 pb-1",
+                            className: "flex flex-col space-y-4 pb-1 md:flex-row md:space-y-0 md:space-x-2",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `w-full md:w-7/12 ${isMobile ? 'pb-3 pt-10' : ''}`,
+                                    className: `w-full md:w-7/12 ${isMobile ? 'pt-10 pb-3' : ''}`,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "https://res.cloudinary.com/dftye6vpx/image/upload/f_auto,q_auto/v1/fredo_mora/if2b7bxyesgscqfninta",
                                         alt: "tezo",
                                         className: "w-full rounded-md border border-[#24242c]/80 opacity-90"
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                        lineNumber: 77,
+                                        lineNumber: 75,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 74,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -458,22 +459,22 @@ function AlfredoHere({ firstParagraph, secondParagraph }) {
                                         className: "w-full rounded-md border border-[#24242c]/80 opacity-90"
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 82,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                    lineNumber: 83,
+                                    lineNumber: 81,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/AlfredoHere.tsx",
-                            lineNumber: 71,
+                            lineNumber: 73,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col md:flex-row md:space-x-2 space-y-4 md:space-y-0",
+                            className: "flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-2",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: `w-full md:w-5/12 ${isMobile ? 'pb-4' : ''}`,
@@ -483,12 +484,12 @@ function AlfredoHere({ firstParagraph, secondParagraph }) {
                                         className: "w-full rounded-md border border-[#24242c]/80 opacity-90"
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 93,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                    lineNumber: 98,
+                                    lineNumber: 92,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -499,24 +500,24 @@ function AlfredoHere({ firstParagraph, secondParagraph }) {
                                         className: "w-full rounded-md border border-[#24242c]/80 opacity-90"
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                        lineNumber: 114,
+                                        lineNumber: 100,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 99,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/AlfredoHere.tsx",
-                            lineNumber: 97,
+                            lineNumber: 91,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/AlfredoHere.tsx",
-                    lineNumber: 69,
+                    lineNumber: 71,
                     columnNumber: 9
                 }, this)
             ]

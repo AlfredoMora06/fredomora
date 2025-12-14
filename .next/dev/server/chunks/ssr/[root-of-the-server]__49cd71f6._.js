@@ -178,12 +178,12 @@ function Photography() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                                 className: "mb-8",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "grid grid-cols-1 md:grid-cols-12 gap-6 pb-5",
+                                    className: "grid grid-cols-1 gap-6 pb-5 md:grid-cols-12",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "md:col-span-7 flex flex-col justify-center",
+                                        className: "flex flex-col justify-center md:col-span-7",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                className: " text-[55px] md:text-[65px] font-bold text-[#E6E8E6] text-center md:text-left ",
+                                                className: "text-center text-[55px] font-bold text-[#E6E8E6] md:text-left md:text-[65px]",
                                                 children: `Photography`
                                             }, void 0, false, {
                                                 fileName: "[project]/app/photography/page.tsx",
@@ -191,11 +191,11 @@ function Photography() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: " pt-2 md:pt-[10px] text-base md:text-lg font-medium text-[#E6E8E6] text-center md:text-left ",
+                                                className: "pt-2 text-center text-base font-medium text-[#E6E8E6] md:pt-[10px] md:text-left md:text-lg",
                                                 children: `Memories frozen in time, some tell stories, some solo me gustan...`
                                             }, void 0, false, {
                                                 fileName: "[project]/app/photography/page.tsx",
-                                                lineNumber: 26,
+                                                lineNumber: 19,
                                                 columnNumber: 17
                                             }, this)
                                         ]
@@ -216,7 +216,7 @@ function Photography() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {}, void 0, false, {
                                 fileName: "[project]/app/photography/page.tsx",
-                                lineNumber: 42,
+                                lineNumber: 27,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -232,15 +232,15 @@ function Photography() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "bg-[#24242c] border-t border-[#9FB8AD] pb-20",
+                className: "border-t border-[#9FB8AD] bg-[#24242c] pb-20",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/app/photography/page.tsx",
-                    lineNumber: 50,
+                    lineNumber: 33,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/photography/page.tsx",
-                lineNumber: 49,
+                lineNumber: 32,
                 columnNumber: 7
             }, this)
         ]

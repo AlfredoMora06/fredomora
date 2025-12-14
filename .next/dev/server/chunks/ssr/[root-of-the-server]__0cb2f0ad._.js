@@ -23,6 +23,7 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
     const [drawerOpen, setDrawerOpen] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"](false);
     const [languageMenuOpen, setLanguageMenuOpen] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"](false);
     const textColor = dark ? 'text-gray-100' : 'text-slate-900';
+    const hoverTextColor = dark ? 'hover:text-green-100' : 'hover:text-[#E05437]';
     const borderColor = dark ? 'border-gray-300' : 'border-slate-900';
     const iconColor = dark ? 'text-gray-100' : 'text-slate-800';
     const pages = [
@@ -65,12 +66,12 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                             children: "Alfredo Morales"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 41,
+                            lineNumber: 42,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 40,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -85,13 +86,6 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                     className: "block h-0.5 w-6 bg-current"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 59,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "mt-1 block h-0.5 w-6 bg-current"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/Navbar.tsx",
                                     lineNumber: 60,
                                     columnNumber: 13
                                 }, this),
@@ -101,16 +95,23 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                     fileName: "[project]/components/Navbar.tsx",
                                     lineNumber: 61,
                                     columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "mt-1 block h-0.5 w-6 bg-current"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.tsx",
+                                    lineNumber: 62,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 52,
+                            lineNumber: 53,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 51,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -121,22 +122,22 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                 // const active = location.pathname === page.link
                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     href: page.link,
-                                    className: `pb-1 text-base transition-all ${textColor} hover:text-green-100`,
+                                    className: `pb-1 text-base transition-all ${textColor} ${hoverTextColor}`,
                                     children: page.title
                                 }, page.link, false, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 71,
+                                    lineNumber: 72,
                                     columnNumber: 17
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 67,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 66,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, this),
                     showLanguage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -144,12 +145,12 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 type: "button",
-                                className: `${textColor} text-base`,
+                                className: `${textColor} text-base ${hoverTextColor} cursor-pointer`,
                                 onClick: ()=>setLanguageMenuOpen((prev)=>!prev),
                                 children: "Language"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 86,
+                                lineNumber: 87,
                                 columnNumber: 13
                             }, this),
                             languageMenuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -166,7 +167,7 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                                 className: "h-4 w-6"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 101,
+                                                lineNumber: 102,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -174,13 +175,13 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                                 children: "En"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 106,
+                                                lineNumber: 107,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 97,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -194,7 +195,7 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                                 className: "h-4 w-6"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 113,
+                                                lineNumber: 114,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -202,31 +203,31 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                                 children: "Es"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 118,
+                                                lineNumber: 119,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 108,
+                                        lineNumber: 109,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 95,
+                                lineNumber: 96,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 85,
+                        lineNumber: 86,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Navbar.tsx",
-                lineNumber: 38,
+                lineNumber: 39,
                 columnNumber: 7
             }, this),
             drawerOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -237,7 +238,7 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                         onClick: ()=>setDrawerOpen(false)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 130,
+                        lineNumber: 131,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -251,7 +252,7 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                 children: "×"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 140,
+                                lineNumber: 141,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -264,40 +265,40 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                                 children: page.title
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 152,
+                                                lineNumber: 153,
                                                 columnNumber: 21
                                             }, this)
                                         }, page.link, false, {
                                             fileName: "[project]/components/Navbar.tsx",
-                                            lineNumber: 151,
+                                            lineNumber: 152,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 149,
+                                    lineNumber: 150,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 148,
+                                lineNumber: 149,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 135,
+                        lineNumber: 136,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Navbar.tsx",
-                lineNumber: 128,
+                lineNumber: 129,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Navbar.tsx",
-        lineNumber: 37,
+        lineNumber: 38,
         columnNumber: 5
     }, this);
 }
@@ -316,7 +317,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$ico
 ;
 ;
 ;
-function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTitle, resumeLabel, resumeUrl, linkedInUrl, workExperiences, educationExperiences, volunteerExperiences }) {
+function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTitle, resumeLabel, linkedInUrl, workExperiences, educationExperiences, volunteerExperiences }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "w-full max-w-md rounded-xl border border-white/40 bg-[#24242c] p-4 shadow-[0_5px_0_rgba(230,232,230,0.1)] md:p-6",
         children: [
@@ -330,7 +331,7 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                                 className: "text-[#E6E8E6]"
                             }, void 0, false, {
                                 fileName: "[project]/components/WorkCard.tsx",
-                                lineNumber: 46,
+                                lineNumber: 44,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -338,63 +339,63 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                                 children: workSectionTitle
                             }, void 0, false, {
                                 fileName: "[project]/components/WorkCard.tsx",
-                                lineNumber: 47,
+                                lineNumber: 45,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/WorkCard.tsx",
-                        lineNumber: 45,
+                        lineNumber: 43,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex items-center gap-3",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: resumeUrl,
+                                href: '/Alfredo_Morales_Resume.pdf',
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 className: "text-xs font-medium text-white transition-colors hover:text-[#E05437]",
                                 children: resumeLabel
                             }, void 0, false, {
                                 fileName: "[project]/components/WorkCard.tsx",
-                                lineNumber: 53,
+                                lineNumber: 51,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 type: "button",
                                 "aria-label": "Open LinkedIn",
                                 onClick: ()=>window.open(linkedInUrl, '_blank'),
-                                className: "text-white transition-colors hover:text-[#E05437]",
+                                className: "text-white transition-colors hover:text-[#E05437] cursor-pointer",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaLinkedin"], {
                                     size: 18
                                 }, void 0, false, {
                                     fileName: "[project]/components/WorkCard.tsx",
-                                    lineNumber: 68,
+                                    lineNumber: 66,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/WorkCard.tsx",
-                                lineNumber: 62,
+                                lineNumber: 60,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/WorkCard.tsx",
-                        lineNumber: 52,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 44,
+                lineNumber: 42,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ExperienceSection, {
                 experiences: workExperiences
             }, void 0, false, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 74,
+                lineNumber: 72,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -403,12 +404,12 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                     className: "h-px w-4/5 bg-[#E6E8E6]/40"
                 }, void 0, false, {
                     fileName: "[project]/components/WorkCard.tsx",
-                    lineNumber: 78,
+                    lineNumber: 76,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 77,
+                lineNumber: 75,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -418,7 +419,7 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                         className: "text-[#E6E8E6]"
                     }, void 0, false, {
                         fileName: "[project]/components/WorkCard.tsx",
-                        lineNumber: 83,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -426,20 +427,20 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                         children: educationSectionTitle
                     }, void 0, false, {
                         fileName: "[project]/components/WorkCard.tsx",
-                        lineNumber: 84,
+                        lineNumber: 82,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 82,
+                lineNumber: 80,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ExperienceSection, {
                 experiences: educationExperiences
             }, void 0, false, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 89,
+                lineNumber: 87,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -448,12 +449,12 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                     className: "h-px w-4/5 bg-[#E6E8E6]/40"
                 }, void 0, false, {
                     fileName: "[project]/components/WorkCard.tsx",
-                    lineNumber: 93,
+                    lineNumber: 91,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 92,
+                lineNumber: 90,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -463,7 +464,7 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                         className: "text-[#E6E8E6]"
                     }, void 0, false, {
                         fileName: "[project]/components/WorkCard.tsx",
-                        lineNumber: 98,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -471,26 +472,26 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                         children: volunteerSectionTitle
                     }, void 0, false, {
                         fileName: "[project]/components/WorkCard.tsx",
-                        lineNumber: 99,
+                        lineNumber: 97,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 97,
+                lineNumber: 95,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ExperienceSection, {
                 experiences: volunteerExperiences
             }, void 0, false, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 104,
+                lineNumber: 102,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/WorkCard.tsx",
-        lineNumber: 42,
+        lineNumber: 40,
         columnNumber: 5
     }, this);
 }
@@ -510,12 +511,12 @@ function ExperienceSection({ experiences }) {
                             className: "h-[45px] w-[45px] rounded-full border-[3px] border-[#9FB8AD] object-cover shadow-[5px_5px_rgba(159,184,173,0.3)]"
                         }, void 0, false, {
                             fileName: "[project]/components/WorkCard.tsx",
-                            lineNumber: 126,
+                            lineNumber: 124,
                             columnNumber: 15
                         }, this) : null
                     }, void 0, false, {
                         fileName: "[project]/components/WorkCard.tsx",
-                        lineNumber: 124,
+                        lineNumber: 122,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -526,7 +527,7 @@ function ExperienceSection({ experiences }) {
                                 children: workTitle
                             }, void 0, false, {
                                 fileName: "[project]/components/WorkCard.tsx",
-                                lineNumber: 137,
+                                lineNumber: 135,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -536,7 +537,7 @@ function ExperienceSection({ experiences }) {
                                         children: position
                                     }, void 0, false, {
                                         fileName: "[project]/components/WorkCard.tsx",
-                                        lineNumber: 141,
+                                        lineNumber: 139,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -544,30 +545,30 @@ function ExperienceSection({ experiences }) {
                                         children: date
                                     }, void 0, false, {
                                         fileName: "[project]/components/WorkCard.tsx",
-                                        lineNumber: 142,
+                                        lineNumber: 140,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/WorkCard.tsx",
-                                lineNumber: 140,
+                                lineNumber: 138,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/WorkCard.tsx",
-                        lineNumber: 136,
+                        lineNumber: 134,
                         columnNumber: 11
                     }, this)
                 ]
             }, `${workTitle}-${position}-${date}`, true, {
                 fileName: "[project]/components/WorkCard.tsx",
-                lineNumber: 119,
+                lineNumber: 117,
                 columnNumber: 9
             }, this))
     }, void 0, false, {
         fileName: "[project]/components/WorkCard.tsx",
-        lineNumber: 117,
+        lineNumber: 115,
         columnNumber: 5
     }, this);
 }

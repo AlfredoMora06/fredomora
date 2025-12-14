@@ -308,6 +308,27 @@ const __TURBOPACK__default__export__ = {
     blurDataURL: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAAIAAgDAREAAhEBAxEB/9sAQwAKBwcIBwYKCAgICwoKCw4YEA4NDQ4dFRYRGCMfJSQiHyIhJis3LyYpNCkhIjBBMTQ5Oz4+PiUuRElDPEg3PT47/9sAQwEKCwsODQ4cEBAcOygiKDs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDvbdNWbXZi8l2tutz8oOdhXPb2rgxlKrSq0pQk5KT1S6epcayxCcXDk5Ov8x//2Q=="
 };
 }),
+"[project]/public/images/family.webp (static in ecmascript, tag client)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/family.01baf104.webp");}),
+"[project]/public/images/family.webp.mjs { IMAGE => \"[project]/public/images/family.webp (static in ecmascript, tag client)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$family$2e$webp__$28$static__in__ecmascript$2c$__tag__client$29$__ = __turbopack_context__.i("[project]/public/images/family.webp (static in ecmascript, tag client)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$family$2e$webp__$28$static__in__ecmascript$2c$__tag__client$29$__["default"],
+    width: 2048,
+    height: 1152,
+    blurWidth: 8,
+    blurHeight: 5,
+    blurDataURL: "data:image/webp;base64,UklGRuwAAABXRUJQVlA4TOAAAAAvBwABAM1VICICHghACgMAAABAwAcDDAACMgYQMAAMAAAAAAAAAAAAAIAAAMAECBjqQZPxI/DkgAEAAOCBAJgwAAAAnP/LtR9wQxr+HgAAASAABAAAAAAAAAAAAAAAAAAAAAAAABgBENiWeCAAKQwAAADnf1/nYxEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAhj2vbV3kefZjxKqHADlqM9oN9fat8ty1PP+Ne+ID2MZJAwLnIt/Iwe/Nk1HHa82JkaiX9+reKnZMtEw//8PqRSEJXf2bpO55ISU8AA=="
+};
+}),
 "[project]/app/about/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -316,6 +337,7 @@ __turbopack_context__.s([
     ()=>About
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Footer.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Navbar.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$WorkCard$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/WorkCard.tsx [app-rsc] (ecmascript)");
@@ -325,6 +347,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$work$2f$
 var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$work$2f$cuny_tech_prep_logo$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$images$2f$work$2f$cuny_tech_prep_logo$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/images/work/cuny_tech_prep_logo.jpeg.mjs { IMAGE => "[project]/public/images/work/cuny_tech_prep_logo.jpeg (static in ecmascript, tag client)" } [app-rsc] (structured image object with data url, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$work$2f$hunter_college_logo$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$images$2f$work$2f$hunter_college_logo$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/images/work/hunter_college_logo.jpeg.mjs { IMAGE => "[project]/public/images/work/hunter_college_logo.jpeg (static in ecmascript, tag client)" } [app-rsc] (structured image object with data url, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$work$2f$tealsk12_logo$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$images$2f$work$2f$tealsk12_logo$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/images/work/tealsk12_logo.jpeg.mjs { IMAGE => "[project]/public/images/work/tealsk12_logo.jpeg (static in ecmascript, tag client)" } [app-rsc] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$family$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$images$2f$family$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/images/family.webp.mjs { IMAGE => "[project]/public/images/family.webp (static in ecmascript, tag client)" } [app-rsc] (structured image object with data url, ecmascript)');
 ;
 ;
 ;
@@ -335,7 +358,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$work$2f$
 ;
 ;
 ;
-function About({ showSubheading = true, childhoodImageUrl }) {
+;
+;
+function About() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -345,7 +370,7 @@ function About({ showSubheading = true, childhoodImageUrl }) {
                         dark: true
                     }, void 0, false, {
                         fileName: "[project]/app/about/page.tsx",
-                        lineNumber: 24,
+                        lineNumber: 19,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -360,59 +385,52 @@ function About({ showSubheading = true, childhoodImageUrl }) {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                     className: "text-center text-4xl leading-tight font-bold text-[#E6E8E6] md:text-left md:text-5xl",
-                                                    children: "Una vida sin explorar no merece ser vivida!"
+                                                    children: "¡Una vida sin explorar no merece ser vivida!"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/about/page.tsx",
-                                                    lineNumber: 32,
+                                                    lineNumber: 25,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "mt-4 text-center text-lg text-[#9FB8AD] italic md:text-left",
-                                                    children: "An unexplored life is not worth living"
+                                                    children: "An unexplored life is not worth living!"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/about/page.tsx",
-                                                    lineNumber: 36,
+                                                    lineNumber: 29,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/about/page.tsx",
-                                            lineNumber: 31,
+                                            lineNumber: 24,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/about/page.tsx",
-                                        lineNumber: 30,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "hidden md:col-span-1 md:block"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/about/page.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 23,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex items-center justify-center md:col-span-4",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                             loading: "lazy",
-                                            src: childhoodImageUrl,
+                                            src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$family$2e$webp$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$images$2f$family$2e$webp__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                                             alt: "family",
                                             className: "w-full max-w-md rounded-[40px] border-2 border-[#9FB8AD] opacity-75"
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.tsx",
-                                            lineNumber: 47,
+                                            lineNumber: 37,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/about/page.tsx",
-                                        lineNumber: 46,
+                                        lineNumber: 36,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/about/page.tsx",
-                                lineNumber: 28,
+                                lineNumber: 22,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -426,7 +444,7 @@ function About({ showSubheading = true, childhoodImageUrl }) {
                                                 children: "I am the son of Mexican immigrants. I grew up in Astoria, NY until 2010. After that, I moved to Mexico with my family where I spent the next 6 years living in Oaxaca - going to school and experiencing everyday life there. At the age of 16 in 2015 - I decided to make the jump and achieve the American Dream and move to NYC. I finished high school there and in 2021 - midst pandemic - I graduated from Hunter College with a B.S. in Computer Science."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/about/page.tsx",
-                                                lineNumber: 60,
+                                                lineNumber: 50,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -434,7 +452,7 @@ function About({ showSubheading = true, childhoodImageUrl }) {
                                                 children: "In 2021, I began my internship with TracFlo a construction-tech company looking to revolutinize one of the least digitized spaces in the world. After 6 months of working with them and being part of their incredible journey, we decided to make the transition into full-time. I began working with TracFlo as a Software Engineer in the beginning of 2022."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/about/page.tsx",
-                                                lineNumber: 63,
+                                                lineNumber: 53,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -442,7 +460,7 @@ function About({ showSubheading = true, childhoodImageUrl }) {
                                                 children: "Since March 2024, I have been working at Wildfire Systems Inc., expanding my software engineering skills to include creating and maintaining browser extensions. My role involves developing new tools and processes as I go."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/about/page.tsx",
-                                                lineNumber: 66,
+                                                lineNumber: 56,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -450,13 +468,13 @@ function About({ showSubheading = true, childhoodImageUrl }) {
                                                 children: "My dream is to better my software engineering skills a bit each day and help out my community in the U.S and in Mexico, in any way I can. In my spare time, you can find me playing soccer, trying new food around Queens, or backpacking across Western Europe."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/about/page.tsx",
-                                                lineNumber: 69,
+                                                lineNumber: 59,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/about/page.tsx",
-                                        lineNumber: 59,
+                                        lineNumber: 49,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -466,7 +484,6 @@ function About({ showSubheading = true, childhoodImageUrl }) {
                                             educationSectionTitle: "Education",
                                             volunteerSectionTitle: "Volunteer",
                                             resumeLabel: "Resume",
-                                            resumeUrl: "https://www.linkedin.com/in/alfredogmorales/",
                                             linkedInUrl: "https://www.linkedin.com/in/alfredogmorales/",
                                             workExperiences: [
                                                 {
@@ -524,42 +541,42 @@ function About({ showSubheading = true, childhoodImageUrl }) {
                                             ]
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.tsx",
-                                            lineNumber: 76,
+                                            lineNumber: 66,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/about/page.tsx",
-                                        lineNumber: 75,
+                                        lineNumber: 65,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/about/page.tsx",
-                                lineNumber: 57,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/about/page.tsx",
-                        lineNumber: 26,
+                        lineNumber: 21,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/about/page.tsx",
-                lineNumber: 23,
+                lineNumber: 18,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "border-t border-[#9FB8AD] bg-[#24242c] pb-20",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/app/about/page.tsx",
-                    lineNumber: 145,
+                    lineNumber: 134,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/about/page.tsx",
-                lineNumber: 144,
+                lineNumber: 133,
                 columnNumber: 7
             }, this)
         ]
@@ -572,4 +589,4 @@ __turbopack_context__.n(__turbopack_context__.i("[project]/app/about/page.tsx [a
 }),
 ];
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__1cad838f._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__c78c3c03._.js.map
