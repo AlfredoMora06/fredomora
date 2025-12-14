@@ -1,2 +1,16 @@
-[00:00:00.837] Server  LOG      ✓ Ready in 600ms
-[00:00:02.378] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.896] Server  LOG      ✓ Ready in 639ms
+[00:00:03.322] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.324] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.372] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:23.357] Server  ERROR    ⨯ ReferenceError: t is not defined
+[00:01:23.381] Server  ERROR    ⨯ ReferenceError: t is not defined
+[00:01:24.388] Browser ERROR   uncaughtError: ReferenceError: t is not defined
+[00:01:24.388] Browser ERROR   uncaughtError: ReferenceError: t is not defined
+[00:01:51.246] Server  ERROR    ⨯ ReferenceError: t is not defined
+[00:01:51.269] Server  ERROR    ⨯ ReferenceError: t is not defined
+[00:01:51.520] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:51.529] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:52.375] Browser ERROR   uncaughtError: ReferenceError: t is not defined
+[00:01:52.375] Browser ERROR   uncaughtError: ReferenceError: t is not defined
+[00:02:12.160] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:12.197] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

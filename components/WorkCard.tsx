@@ -1,5 +1,6 @@
 'use client'
 
+import Image, { StaticImageData } from 'next/image'
 import {
   FaBriefcase,
   FaGraduationCap,
@@ -11,7 +12,7 @@ type Experience = {
   workTitle: string
   position: string
   date: string
-  image?: string
+  image?: StaticImageData
 }
 
 type WorkCardProps = {
@@ -38,7 +39,7 @@ export default function WorkCard({
   volunteerExperiences,
 }: WorkCardProps) {
   return (
-    <div className="w-full max-w-md rounded-xl border border-white/40 bg-[#24242c] shadow-[0_5px_0_rgba(230,232,230,0.1)] p-4 md:p-6">
+    <div className="w-full max-w-md rounded-xl border border-white/40 bg-[#24242c] p-4 shadow-[0_5px_0_rgba(230,232,230,0.1)] md:p-6">
       {/* Header: Work + Resume + LinkedIn */}
       <div className="flex items-center justify-between gap-4 pb-2">
         <div className="flex items-center gap-3">
@@ -53,7 +54,7 @@ export default function WorkCard({
             href={resumeUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs font-medium text-white hover:text-[#E05437] transition-colors"
+            className="text-xs font-medium text-white transition-colors hover:text-[#E05437]"
           >
             {resumeLabel}
           </a>
@@ -62,7 +63,7 @@ export default function WorkCard({
             type="button"
             aria-label="Open LinkedIn"
             onClick={() => window.open(linkedInUrl, '_blank')}
-            className="text-white hover:text-[#E05437] transition-colors"
+            className="text-white transition-colors hover:text-[#E05437]"
           >
             <FaLinkedin size={18} />
           </button>
@@ -120,13 +121,13 @@ function ExperienceSection({ experiences }: ExperienceSectionProps) {
           className="flex flex-col gap-3 md:flex-row"
         >
           {/* Logo / Image */}
-          <div className="md:w-1/5 flex items-start">
+          <div className="flex items-start md:w-1/5">
             {image ? (
-              <img
+              <Image
                 src={image}
                 alt={workTitle}
                 loading="lazy"
-                className="h-[45px] w-[45px] rounded-full border-[3px] border-[#9FB8AD] shadow-[5px_5px_rgba(159,184,173,0.3)] object-cover"
+                className="h-[45px] w-[45px] rounded-full border-[3px] border-[#9FB8AD] object-cover shadow-[5px_5px_rgba(159,184,173,0.3)]"
               />
             ) : null}
           </div>

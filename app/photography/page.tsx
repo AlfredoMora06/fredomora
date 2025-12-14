@@ -11,27 +11,12 @@ export default function Photography() {
         <main className="mx-auto max-w-6xl px-4 py-8">
           {/* Header text */}
           <section className="mb-8">
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-6 pb-5">
-              <div className="md:col-span-7 flex flex-col justify-center">
-                <h1
-                  className="
-                    text-[55px] md:text-[65px]
-                    font-bold
-                    text-[#E6E8E6]
-                    text-center md:text-left
-                  "
-                >
+            <div className="grid grid-cols-1 gap-6 pb-5 md:grid-cols-12">
+              <div className="flex flex-col justify-center md:col-span-7">
+                <h1 className="text-center text-[55px] font-bold text-[#E6E8E6] md:text-left md:text-[65px]">
                   {`Photography`}
                 </h1>
-                <p
-                  className="
-                    pt-2 md:pt-[10px]
-                    text-base md:text-lg
-                    font-medium
-                    text-[#E6E8E6]
-                    text-center md:text-left
-                  "
-                >
+                <p className="pt-2 text-center text-base font-medium text-[#E6E8E6] md:pt-[10px] md:text-left md:text-lg">
                   {`Memories frozen in time, some tell stories, some solo me gustan...`}
                 </p>
               </div>
@@ -39,14 +24,12 @@ export default function Photography() {
           </section>
 
           {/* Tabs */}
-          <section>
-            {/* <PhotoTabs t={t} /> */}
-          </section>
+          <section>{/* <PhotoTabs t={t} /> */}</section>
         </main>
       </div>
 
       {/* Footer section */}
-      <div className="bg-[#24242c] border-t border-[#9FB8AD] pb-20">
+      <div className="border-t border-[#9FB8AD] bg-[#24242c] pb-20">
         <Footer />
       </div>
     </>

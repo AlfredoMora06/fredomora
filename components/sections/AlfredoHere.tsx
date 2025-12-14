@@ -11,7 +11,7 @@ type AlfredoHereProps = {
 export default function AlfredoHere({
   firstParagraph,
   secondParagraph,
-}: AlfredoHereProps){
+}: AlfredoHereProps) {
   const [isMobile, setIsMobile] = React.useState(false)
 
   React.useEffect(() => {
@@ -33,23 +33,25 @@ export default function AlfredoHere({
         <div className="flex flex-col space-y-6">
           {/* Text */}
           <div>
-            <p className="text-lg md:text-xl leading-relaxed">{firstParagraph}</p>
+            <p className="text-lg leading-relaxed md:text-xl">
+              {firstParagraph}
+            </p>
             <br />
-            <p className="text-lg md:text-xl leading-relaxed">{secondParagraph}</p>
+            <p className="text-lg leading-relaxed md:text-xl">
+              {secondParagraph}
+            </p>
           </div>
 
           {/* Contact + GIF row */}
           <div
-            className={`mt-0 flex justify-between ${
-              isMobile ? 'pt-5' : ''
-            }`}
+            className={`mt-0 flex justify-between ${isMobile ? 'pt-5' : ''}`}
           >
-            <div className="pt-10 w-1/3">
+            <div className="w-1/3 pt-10">
               {/* <ContactMe isMobile={isMobile} /> */}
             </div>
 
-            <div className="pt-10 w-1/3">
-              <div className="relative pb-[94.2%] overflow-hidden">
+            <div className="w-1/3 pt-10">
+              <div className="relative overflow-hidden pb-[94.2%]">
                 <img
                   alt="end-of-road.gif"
                   src="https://images.squarespace-cdn.com/content/v1/60133069ccdf254ecbbd6f57/1612120505252-ZWZI596X7SLPJS78VL4E/end-of-road.gif"
@@ -68,23 +70,15 @@ export default function AlfredoHere({
         {/* RIGHT SIDE: Photo grid */}
         <div className="flex flex-col space-y-4">
           {/* Top row */}
-          <div className="flex flex-col md:flex-row md:space-x-2 space-y-4 md:space-y-0 pb-1">
-            <div
-              className={`w-full md:w-7/12 ${
-                isMobile ? 'pb-3 pt-10' : ''
-              }`}
-            >
+          <div className="flex flex-col space-y-4 pb-1 md:flex-row md:space-y-0 md:space-x-2">
+            <div className={`w-full md:w-7/12 ${isMobile ? 'pt-10 pb-3' : ''}`}>
               <img
                 src="https://res.cloudinary.com/dftye6vpx/image/upload/f_auto,q_auto/v1/fredo_mora/if2b7bxyesgscqfninta"
                 alt="tezo"
                 className="w-full rounded-md border border-[#24242c]/80 opacity-90"
               />
             </div>
-            <div
-              className={`w-full md:w-5/12 ${
-                isMobile ? 'pb-3' : ''
-              }`}
-            >
+            <div className={`w-full md:w-5/12 ${isMobile ? 'pb-3' : ''}`}>
               <img
                 src="https://res.cloudinary.com/dftye6vpx/image/upload/f_auto,q_auto/v1/fredo_mora/bnkp44sgd0ylosfsn9sc"
                 alt="brickwall"
@@ -94,23 +88,15 @@ export default function AlfredoHere({
           </div>
 
           {/* Bottom row */}
-          <div className="flex flex-col md:flex-row md:space-x-2 space-y-4 md:space-y-0">
-            <div
-              className={`w-full md:w-5/12 ${
-                isMobile ? 'pb-4' : ''
-              }`}
-            >
+          <div className="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-2">
+            <div className={`w-full md:w-5/12 ${isMobile ? 'pb-4' : ''}`}>
               <img
                 src="https://res.cloudinary.com/dftye6vpx/image/upload/f_auto,q_auto/v1/fredo_mora/ctonn8ujhudssrwkz1so"
                 alt="bali"
                 className="w-full rounded-md border border-[#24242c]/80 opacity-90"
               />
             </div>
-            <div
-              className={`w-full md:w-7/12 ${
-                isMobile ? 'pb-4' : ''
-              }`}
-            >
+            <div className={`w-full md:w-7/12 ${isMobile ? 'pb-4' : ''}`}>
               <img
                 src="https://res.cloudinary.com/dftye6vpx/image/upload/f_auto,q_auto/v1/fredo_mora/ciwlml5d8aqltqtxhdno"
                 alt="abril"
