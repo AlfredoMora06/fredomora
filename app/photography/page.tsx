@@ -30,7 +30,7 @@ export default function Photography() {
 
       {/* Footer section */}
       <div className="border-t border-[#9FB8AD] bg-[#24242c] pb-20">
-        <Footer />
+        <Footer dark />
       </div>
     </>
   )

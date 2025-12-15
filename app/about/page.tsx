@@ -26,9 +26,9 @@ export default function About() {
                   ¡Una vida sin explorar no merece ser vivida!
                 </h1>
 
-                  <p className="mt-4 text-center text-lg text-[#9FB8AD] italic md:text-left">
-                    An unexplored life is not worth living!
-                  </p>
+                <p className="mt-4 text-center text-lg text-[#9FB8AD] italic md:text-left">
+                  An unexplored life is not worth living!
+                </p>
               </div>
             </div>
 
@@ -48,16 +48,35 @@ export default function About() {
             {/* Text column */}
             <div className="space-y-4">
               <p className="text-base text-[#E6E8E6] md:text-lg">
-                I am the son of Mexican immigrants. I grew up in Astoria, NY until 2010. After that, I moved to Mexico with my family where I spent the next 6 years living in Oaxaca - going to school and experiencing everyday life there. At the age of 16 in 2015 - I decided to make the jump and achieve the American Dream and move to NYC. I finished high school there and in 2021 - midst pandemic - I graduated from Hunter College with a B.S. in Computer Science.
+                I am the son of Mexican immigrants. I grew up in Astoria, NY
+                until 2010. After that, I moved to Mexico with my family where I
+                spent the next 6 years living in Oaxaca - going to school and
+                experiencing everyday life there. At the age of 16 in 2015 - I
+                decided to make the jump and achieve the American Dream and move
+                to NYC. I finished high school there and in 2021 - midst
+                pandemic - I graduated from Hunter College with a B.S. in
+                Computer Science.
               </p>
               <p className="text-base text-[#E6E8E6] md:text-lg">
-                In 2021, I began my internship with TracFlo a construction-tech company looking to revolutinize one of the least digitized spaces in the world. After 6 months of working with them and being part of their incredible journey, we decided to make the transition into full-time. I began working with TracFlo as a Software Engineer in the beginning of 2022.
+                In 2021, I began my internship with TracFlo a construction-tech
+                company looking to revolutinize one of the least digitized
+                spaces in the world. After 6 months of working with them and
+                being part of their incredible journey, we decided to make the
+                transition into full-time. I began working with TracFlo as a
+                Software Engineer in the beginning of 2022.
               </p>
               <p className="text-base text-[#E6E8E6] md:text-lg">
-                Since March 2024, I have been working at Wildfire Systems Inc., expanding my software engineering skills to include creating and maintaining browser extensions. My role involves developing new tools and processes as I go.
+                Since March 2024, I have been working at Wildfire Systems Inc.,
+                expanding my software engineering skills to include creating and
+                maintaining browser extensions. My role involves developing new
+                tools and processes as I go.
               </p>
               <p className="text-base text-[#E6E8E6] md:text-lg">
-                My dream is to better my software engineering skills a bit each day and help out my community in the U.S and in Mexico, in any way I can. In my spare time, you can find me playing soccer, trying new food around Queens, or backpacking across Western Europe.
+                My dream is to better my software engineering skills a bit each
+                day and help out my community in the U.S and in Mexico, in any
+                way I can. In my spare time, you can find me playing soccer,
+                trying new food around Queens, or backpacking across Western
+                Europe.
               </p>
             </div>
 
@@ -131,7 +150,7 @@ export default function About() {
 
       {/* Footer wrapper */}
       <div className="border-t border-[#9FB8AD] bg-[#24242c] pb-20">
-        <Footer />
+        <Footer dark />
       </div>
     </>
   )

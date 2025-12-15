@@ -61,7 +61,7 @@ export default function WorkCard({
             type="button"
             aria-label="Open LinkedIn"
             onClick={() => window.open(linkedInUrl, '_blank')}
-            className="text-white transition-colors hover:text-[#E05437] cursor-pointer"
+            className="cursor-pointer text-white transition-colors hover:text-[#E05437]"
           >
             <FaLinkedin size={18} />
           </button>

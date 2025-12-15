@@ -369,7 +369,7 @@ function WorkCard({ workSectionTitle, educationSectionTitle, volunteerSectionTit
                                 type: "button",
                                 "aria-label": "Open LinkedIn",
                                 onClick: ()=>window.open(linkedInUrl, '_blank'),
-                                className: "text-white transition-colors hover:text-[#E05437] cursor-pointer",
+                                className: "cursor-pointer text-white transition-colors hover:text-[#E05437]",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaLinkedin"], {
                                     size: 18
                                 }, void 0, false, {
