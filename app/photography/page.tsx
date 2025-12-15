@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import PhotoTabs from '@/components/sections/PhotoTabs'
 
 export default function Photography() {
   return (
@@ -10,7 +11,7 @@ export default function Photography() {
 
         <main className="mx-auto max-w-6xl px-4 py-8">
           {/* Header text */}
-          <section className="mb-8">
+          <section>
             <div className="grid grid-cols-1 gap-6 pb-5 md:grid-cols-12">
               <div className="flex flex-col justify-center md:col-span-7">
                 <h1 className="text-center text-[55px] font-bold text-[#E6E8E6] md:text-left md:text-[65px]">
@@ -24,7 +25,7 @@ export default function Photography() {
           </section>
 
           {/* Tabs */}
-          <section>{/* <PhotoTabs t={t} /> */}</section>
+          <section><PhotoTabs /></section>
         </main>
       </div>
 
