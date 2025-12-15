@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-// import ContactMe from '../ContactMe'
+import Image from 'next/image'
 
 type AlfredoHereProps = {
   firstParagraph: string
@@ -27,7 +27,8 @@ export default function AlfredoHere({
   }, [])
 
   return (
-    <section className="mx-auto max-w-6xl px-4 pt-8">
+    // Make the section at least full viewport height and vertically center its content
+    <section className="mx-auto max-w-6xl px-4 min-h-screen flex items-center">
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         {/* LEFT SIDE: Text + Contact + GIF */}
         <div className="flex flex-col space-y-6">
@@ -46,7 +47,16 @@ export default function AlfredoHere({
           <div
             className={`mt-0 flex justify-between ${isMobile ? 'pt-5' : ''}`}
           >
-            <div className="w-1/3 pt-10">
+            <div className="relative w-1/3 pt-10">
+              <Image
+                src={'/messageman.gif'}
+                alt="contact me gif"
+                loading="lazy"
+                className="absolute inset-x-0 bottom-0 text-black"
+                width={150}
+                height={150}
+                unoptimized
+              />
               {/* <ContactMe isMobile={isMobile} /> */}
             </div>
 
@@ -78,11 +88,13 @@ export default function AlfredoHere({
                 className="w-full rounded-md border border-[#24242c]/80 opacity-90"
               />
             </div>
-            <div className={`w-full md:w-5/12 ${isMobile ? 'pb-3' : ''}`}>
+            <div
+              className={`w-full md:w-5/12 ${isMobile ? 'pb-3' : 'relative'}`}
+            >
               <img
                 src="https://res.cloudinary.com/dftye6vpx/image/upload/f_auto,q_auto/v1/fredo_mora/bnkp44sgd0ylosfsn9sc"
                 alt="brickwall"
-                className="w-full rounded-md border border-[#24242c]/80 opacity-90"
+                className={`w-full rounded-md border border-[#24242c]/80 opacity-90 ${isMobile ? '' : 'absolute inset-x-0 bottom-0'}`}
               />
             </div>
           </div>

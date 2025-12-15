@@ -312,7 +312,9 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 'use client';
+;
 ;
 ;
 function AlfredoHere({ firstParagraph, secondParagraph }) {
@@ -367,7 +369,20 @@ function AlfredoHere({ firstParagraph, secondParagraph }) {
                             className: `mt-0 flex justify-between ${isMobile ? 'pt-5' : ''}`,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-1/3 pt-10"
+                                    className: "relative w-1/3 pt-10",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        src: '/messageman.gif',
+                                        alt: "contact me gif",
+                                        loading: "lazy",
+                                        className: "absolute inset-x-0 bottom-0 text-black",
+                                        width: 150,
+                                        height: 150,
+                                        unoptimized: true
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sections/AlfredoHere.tsx",
+                                        lineNumber: 50,
+                                        columnNumber: 15
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/AlfredoHere.tsx",
                                     lineNumber: 49,
@@ -385,17 +400,17 @@ function AlfredoHere({ firstParagraph, secondParagraph }) {
                                             className: "absolute inset-0 h-[106%] w-full object-cover"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                            lineNumber: 55,
+                                            lineNumber: 64,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 63,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                    lineNumber: 53,
+                                    lineNumber: 62,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -408,7 +423,7 @@ function AlfredoHere({ firstParagraph, secondParagraph }) {
                             className: "border-t border-[#E05437]"
                         }, void 0, false, {
                             fileName: "[project]/components/sections/AlfredoHere.tsx",
-                            lineNumber: 67,
+                            lineNumber: 76,
                             columnNumber: 11
                         }, this)
                     ]
@@ -431,34 +446,34 @@ function AlfredoHere({ firstParagraph, secondParagraph }) {
                                         className: "w-full rounded-md border border-[#24242c]/80 opacity-90"
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                        lineNumber: 75,
+                                        lineNumber: 84,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                    lineNumber: 74,
+                                    lineNumber: 83,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `w-full md:w-5/12 ${isMobile ? 'pb-3' : ''}`,
+                                    className: `w-full md:w-5/12 ${isMobile ? 'pb-3' : 'relative'}`,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "https://res.cloudinary.com/dftye6vpx/image/upload/f_auto,q_auto/v1/fredo_mora/bnkp44sgd0ylosfsn9sc",
                                         alt: "brickwall",
-                                        className: "w-full rounded-md border border-[#24242c]/80 opacity-90"
+                                        className: `w-full rounded-md border border-[#24242c]/80 opacity-90 ${isMobile ? '' : 'absolute inset-x-0 bottom-0'}`
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                        lineNumber: 82,
+                                        lineNumber: 93,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                    lineNumber: 81,
+                                    lineNumber: 90,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/AlfredoHere.tsx",
-                            lineNumber: 73,
+                            lineNumber: 82,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -472,12 +487,12 @@ function AlfredoHere({ firstParagraph, secondParagraph }) {
                                         className: "w-full rounded-md border border-[#24242c]/80 opacity-90"
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                        lineNumber: 93,
+                                        lineNumber: 104,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 103,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -488,24 +503,24 @@ function AlfredoHere({ firstParagraph, secondParagraph }) {
                                         className: "w-full rounded-md border border-[#24242c]/80 opacity-90"
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                        lineNumber: 100,
+                                        lineNumber: 111,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/AlfredoHere.tsx",
-                                    lineNumber: 99,
+                                    lineNumber: 110,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/AlfredoHere.tsx",
-                            lineNumber: 91,
+                            lineNumber: 102,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/AlfredoHere.tsx",
-                    lineNumber: 71,
+                    lineNumber: 80,
                     columnNumber: 9
                 }, this)
             ]
