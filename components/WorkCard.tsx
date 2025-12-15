@@ -20,7 +20,6 @@ type WorkCardProps = {
   educationSectionTitle: string
   volunteerSectionTitle: string
   resumeLabel: string
-  resumeUrl: string
   linkedInUrl: string
   workExperiences: Experience[]
   educationExperiences: Experience[]
@@ -32,7 +31,6 @@ export default function WorkCard({
   educationSectionTitle,
   volunteerSectionTitle,
   resumeLabel,
-  resumeUrl,
   linkedInUrl,
   workExperiences,
   educationExperiences,
@@ -51,7 +49,7 @@ export default function WorkCard({
 
         <div className="flex items-center gap-3">
           <a
-            href={resumeUrl}
+            href={'/Alfredo_Morales_Resume.pdf'}
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs font-medium text-white transition-colors hover:text-[#E05437]"
@@ -63,7 +61,7 @@ export default function WorkCard({
             type="button"
             aria-label="Open LinkedIn"
             onClick={() => window.open(linkedInUrl, '_blank')}
-            className="text-white transition-colors hover:text-[#E05437]"
+            className="text-white transition-colors hover:text-[#E05437] cursor-pointer"
           >
             <FaLinkedin size={18} />
           </button>

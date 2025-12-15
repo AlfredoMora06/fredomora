@@ -14,3 +14,1476 @@
 [00:01:52.375] Browser ERROR   uncaughtError: ReferenceError: t is not defined
 [00:02:12.160] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:02:12.197] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[117:13:27.593] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[117:18:58.666] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[117:20:32.976] Server  LOG      ✓ Compiled in 17ms
+[117:20:43.402] Server  LOG      ✓ Compiled in 14ms
+[118:03:12.204] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.205] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.217] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.219] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.222] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.223] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.224] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.225] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.227] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.228] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.229] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.230] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.233] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.234] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.235] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.236] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.237] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.238] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.239] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.240] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.242] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.243] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.244] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.245] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.247] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.248] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.249] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.249] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.250] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.251] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.252] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.254] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.255] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.256] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.257] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.258] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.259] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.261] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.262] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.263] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.264] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.265] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.266] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.266] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.268] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.270] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.270] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.271] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.272] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.273] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.274] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.274] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.275] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.276] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.278] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.279] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.280] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.281] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.282] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.282] Server  ERROR    ⨯ ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[118:03:12.284] Server  LOG      ✓ Compiled in 37ms
+[118:03:13.350] Browser ERROR   ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[118:03:13.350] Browser ERROR   ./components/WorkCard.tsx:10:1
+Module not found: Can't resolve '../assets/Alfredo_Morales_Resume.pdf'
+   8 |   FaLinkedin,
+   9 | } from 'react-icons/fa'
+> 10 | import ResumePdf from "../assets/Alfredo_Morales_Resume.pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | type Experience = {
+  13 |   workTitle: string
+
+Import trace:
+  Server Component:
+    ./components/WorkCard.tsx
+    ./app/about/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[118:04:15.070] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:15.075] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:15.075] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:15.075] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:15.076] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:15.076] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:15.077] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:15.077] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:15.077] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:15.077] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:15.078] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:15.078] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:15.078] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:15.079] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:15.079] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:15.124] Server  LOG      ✓ Compiled in 28ms
+[118:04:15.350] Browser ERROR   ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[118:04:15.350] Browser ERROR   ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[118:04:31.032] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:31.032] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:31.032] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:31.032] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:31.032] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:31.033] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:31.033] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:31.033] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:31.033] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:31.033] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:31.033] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:31.033] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:31.033] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:31.033] Server  ERROR    ⨯ ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[118:04:31.072] Server  LOG      ✓ Compiled in 14ms
+[118:04:31.350] Browser ERROR   ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[118:04:31.352] Browser ERROR   ./public/Alfredo_Morales_Resume.pdf
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[118:09:05.940] Server  LOG      ✓ Compiled in 23ms
+[118:10:08.350] Server  LOG      ✓ Compiled in 12ms
+[118:11:56.849] Server  LOG      ✓ Compiled in 14ms
+[118:12:11.856] Server  LOG      ✓ Compiled in 13ms
+[118:12:24.084] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[120:25:27.955] Server  LOG      ✓ Compiled in 20ms
+[120:25:36.698] Server  LOG      ✓ Compiled in 21ms
+[120:26:22.022] Server  LOG      ✓ Compiled in 33ms
+[120:26:36.703] Server  LOG      ✓ Compiled in 14ms
+[120:26:43.624] Server  LOG      ✓ Compiled in 20ms
+[120:27:07.090] Server  LOG      ✓ Compiled in 13ms

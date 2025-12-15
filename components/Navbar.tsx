@@ -17,6 +17,7 @@ export default function Navbar({
   const [languageMenuOpen, setLanguageMenuOpen] = React.useState(false)
 
   const textColor = dark ? 'text-gray-100' : 'text-slate-900'
+  const hoverTextColor = dark ? 'hover:text-green-100' : 'hover:text-[#E05437]'
   const borderColor = dark ? 'border-gray-300' : 'border-slate-900'
   const iconColor = dark ? 'text-gray-100' : 'text-slate-800'
 
@@ -71,7 +72,7 @@ export default function Navbar({
                 <Link
                   href={page.link}
                   key={page.link}
-                  className={`pb-1 text-base transition-all ${textColor} hover:text-green-100`}
+                  className={`pb-1 text-base transition-all ${textColor} ${hoverTextColor}`}
                 >
                   {page.title}
                 </Link>
@@ -85,7 +86,7 @@ export default function Navbar({
           <div className="relative ml-4">
             <button
               type="button"
-              className={`${textColor} text-base`}
+              className={`${textColor} text-base ${hoverTextColor} cursor-pointer`}
               onClick={() => setLanguageMenuOpen((prev) => !prev)}
             >
               Language
