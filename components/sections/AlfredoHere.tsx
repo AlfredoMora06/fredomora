@@ -28,7 +28,7 @@ export default function AlfredoHere({
 
   return (
     // Make the section at least full viewport height and vertically center its content
-    <section className="mx-auto max-w-6xl px-4 min-h-screen flex items-center">
+    <section className="mx-auto flex min-h-screen max-w-6xl items-center px-4 pt-10 md:pt-0">
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         {/* LEFT SIDE: Text + Contact + GIF */}
         <div className="flex flex-col space-y-6">
