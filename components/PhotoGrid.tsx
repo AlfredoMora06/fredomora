@@ -1,5 +1,4 @@
-
-import { Photo } from "../types/Photo"
+import { Photo } from '../types/Photo'
 
 type PhotoGridProps = {
   photos: Photo[]
@@ -17,7 +16,7 @@ export default function PhotoGrid({ photos }: PhotoGridProps) {
           return (
             <div
               key={src}
-              className="w-full pb-2.5 opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]"
+              className="w-full animate-[fadeIn_0.8s_ease-out_forwards] pb-2.5 opacity-0"
             >
               <img
                 src={`${src}?w=161&fit=crop&auto=format`}
@@ -39,13 +38,13 @@ export default function PhotoGrid({ photos }: PhotoGridProps) {
             return (
               <div
                 key={src}
-                className="break-inside-avoid mb-2 opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]"
+                className="mb-2 animate-[fadeIn_0.8s_ease-out_forwards] break-inside-avoid opacity-0"
               >
                 <img
                   src={`${src}?w=161&fit=crop&auto=format`}
                   alt="missing"
                   loading="lazy"
-                  className="w-full h-auto block"
+                  className="block h-auto w-full"
                 />
               </div>
             )

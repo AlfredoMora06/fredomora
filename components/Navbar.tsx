@@ -53,13 +53,16 @@ export default function Navbar({
           <button
             type="button"
             aria-label="Open navigation menu"
+            aria-expanded={drawerOpen}
             className={`inline-flex items-center justify-center rounded-md p-2 focus:ring-2 focus:ring-offset-2 focus:outline-none ${iconColor}`}
             onClick={() => setDrawerOpen(true)}
           >
-            {/* Simple hamburger icon */}
-            <span className="block h-0.5 w-6 bg-current" />
-            <span className="mt-1 block h-0.5 w-6 bg-current" />
-            <span className="mt-1 block h-0.5 w-6 bg-current" />
+            {/* Simple hamburger icon (stacked with gap for consistent spacing) */}
+            <div className="flex flex-col gap-1">
+              <span className="block h-0.5 w-6 rounded-sm bg-current" />
+              <span className="block h-0.5 w-6 rounded-sm bg-current" />
+              <span className="block h-0.5 w-6 rounded-sm bg-current" />
+            </div>
           </button>
         </div>
 
@@ -93,10 +96,10 @@ export default function Navbar({
             </button>
 
             {languageMenuOpen && (
-              <div className="absolute right-0 mt-2 w-28 rounded-md border border-slate-200 bg-white py-1 text-sm shadow-lg dark:border-slate-700 dark:bg-slate-800">
+              <div className="absolute right-0 mt-2 w-28 rounded-md border border-slate-200 bg-white py-1 text-sm shadow-lg dark:border-slate-700">
                 <button
                   type="button"
-                  className="flex w-full items-center px-2 py-1 hover:bg-slate-100 dark:hover:bg-slate-700"
+                  className="flex w-full items-center px-2 py-1 hover:cursor-pointer hover:bg-slate-100 hover:text-white dark:hover:bg-slate-700"
                   onClick={() => handleLanguageChange('en')}
                 >
                   <img
@@ -108,7 +111,7 @@ export default function Navbar({
                 </button>
                 <button
                   type="button"
-                  className="flex w-full items-center px-2 py-1 hover:bg-slate-100 dark:hover:bg-slate-700"
+                  className="flex w-full items-center px-2 py-1 hover:cursor-pointer hover:bg-slate-100 hover:text-white dark:hover:bg-slate-700"
                   onClick={() => handleLanguageChange('es')}
                 >
                   <img
@@ -134,25 +137,25 @@ export default function Navbar({
           />
           {/* Drawer panel */}
           <div
-            className={`flex h-full w-1/2 max-w-xs flex-col bg-slate-100 p-4 shadow-lg transition-transform dark:bg-slate-900 ${
+            className={`flex h-full w-1/2 max-w-xs flex-col p-4 shadow-lg transition-transform dark:bg-[#24242c] ${
               dark ? 'text-gray-100' : 'text-slate-900'
             }`}
           >
             <button
               type="button"
-              className="mb-4 self-end text-2xl leading-none"
+              className={`mb-4 self-end text-2xl leading-none text-gray-100`}
               onClick={() => setDrawerOpen(false)}
               aria-label="Close menu"
             >
               ×
             </button>
             <nav>
-              <ul className="space-y-2">
+              <ul className="space-y-5">
                 {pagesMobile.map((page) => (
                   <li key={page.link}>
                     <Link
                       href={page.link}
-                      className="w-full text-left text-base font-medium"
+                      className={`w-full text-left text-base font-medium text-gray-100`}
                     >
                       {page.title}
                     </Link>

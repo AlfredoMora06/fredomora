@@ -10,4 +10,6 @@ export type Project = {
   image7?: string
   code: string
   demo?: string
+  year: string
+  description: string
 }

@@ -25,7 +25,9 @@ export default function Photography() {
           </section>
 
           {/* Tabs */}
-          <section><PhotoTabs /></section>
+          <section>
+            <PhotoTabs />
+          </section>
         </main>
       </div>
 

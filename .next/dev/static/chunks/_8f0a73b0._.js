@@ -75,32 +75,40 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             type: "button",
                             "aria-label": "Open navigation menu",
+                            "aria-expanded": drawerOpen,
                             className: `inline-flex items-center justify-center rounded-md p-2 focus:ring-2 focus:ring-offset-2 focus:outline-none ${iconColor}`,
                             onClick: ()=>setDrawerOpen(true),
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "block h-0.5 w-6 bg-current"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 60,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "mt-1 block h-0.5 w-6 bg-current"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 61,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "mt-1 block h-0.5 w-6 bg-current"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 62,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-col gap-1",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "block h-0.5 w-6 rounded-sm bg-current"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Navbar.tsx",
+                                        lineNumber: 62,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "block h-0.5 w-6 rounded-sm bg-current"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Navbar.tsx",
+                                        lineNumber: 63,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "block h-0.5 w-6 rounded-sm bg-current"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Navbar.tsx",
+                                        lineNumber: 64,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/Navbar.tsx",
+                                lineNumber: 61,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
                             lineNumber: 53,
                             columnNumber: 11
@@ -122,18 +130,18 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                     children: page.title
                                 }, page.link, false, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 75,
                                     columnNumber: 17
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 68,
+                            lineNumber: 71,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 67,
+                        lineNumber: 70,
                         columnNumber: 9
                     }, this),
                     showLanguage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -146,15 +154,15 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                 children: "Language"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 87,
+                                lineNumber: 90,
                                 columnNumber: 13
                             }, this),
                             languageMenuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute right-0 mt-2 w-28 rounded-md border border-slate-200 bg-white py-1 text-sm shadow-lg dark:border-slate-700 dark:bg-slate-800",
+                                className: "absolute right-0 mt-2 w-28 rounded-md border border-slate-200 bg-white py-1 text-sm shadow-lg dark:border-slate-700",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         type: "button",
-                                        className: "flex w-full items-center px-2 py-1 hover:bg-slate-100 dark:hover:bg-slate-700",
+                                        className: "flex w-full items-center px-2 py-1 hover:cursor-pointer hover:bg-slate-100 hover:text-white dark:hover:bg-slate-700",
                                         onClick: ()=>handleLanguageChange('en'),
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -163,7 +171,7 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                                 className: "h-4 w-6"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 102,
+                                                lineNumber: 105,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -171,18 +179,18 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                                 children: "En"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 107,
+                                                lineNumber: 110,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 97,
+                                        lineNumber: 100,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         type: "button",
-                                        className: "flex w-full items-center px-2 py-1 hover:bg-slate-100 dark:hover:bg-slate-700",
+                                        className: "flex w-full items-center px-2 py-1 hover:cursor-pointer hover:bg-slate-100 hover:text-white dark:hover:bg-slate-700",
                                         onClick: ()=>handleLanguageChange('es'),
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -191,7 +199,7 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                                 className: "h-4 w-6"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 114,
+                                                lineNumber: 117,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -199,25 +207,25 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                                                 children: "Es"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 119,
+                                                lineNumber: 122,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 109,
+                                        lineNumber: 112,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 96,
+                                lineNumber: 99,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 86,
+                        lineNumber: 89,
                         columnNumber: 11
                     }, this)
                 ]
@@ -234,61 +242,61 @@ function Navbar({ dark, showLanguage = true, onLanguageChange }) {
                         onClick: ()=>setDrawerOpen(false)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 131,
+                        lineNumber: 134,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: `flex h-full w-1/2 max-w-xs flex-col bg-slate-100 p-4 shadow-lg transition-transform dark:bg-slate-900 ${dark ? 'text-gray-100' : 'text-slate-900'}`,
+                        className: `flex h-full w-1/2 max-w-xs flex-col p-4 shadow-lg transition-transform dark:bg-[#24242c] ${dark ? 'text-gray-100' : 'text-slate-900'}`,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 type: "button",
-                                className: "mb-4 self-end text-2xl leading-none",
+                                className: `mb-4 self-end text-2xl leading-none text-gray-100`,
                                 onClick: ()=>setDrawerOpen(false),
                                 "aria-label": "Close menu",
                                 children: "×"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 141,
+                                lineNumber: 144,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "space-y-2",
+                                    className: "space-y-5",
                                     children: pagesMobile.map((page)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 href: page.link,
-                                                className: "w-full text-left text-base font-medium",
+                                                className: `w-full text-left text-base font-medium text-gray-100`,
                                                 children: page.title
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 153,
+                                                lineNumber: 156,
                                                 columnNumber: 21
                                             }, this)
                                         }, page.link, false, {
                                             fileName: "[project]/components/Navbar.tsx",
-                                            lineNumber: 152,
+                                            lineNumber: 155,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 150,
+                                    lineNumber: 153,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 149,
+                                lineNumber: 152,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 136,
+                        lineNumber: 139,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Navbar.tsx",
-                lineNumber: 129,
+                lineNumber: 132,
                 columnNumber: 9
             }, this)
         ]
@@ -453,7 +461,7 @@ function PhotoGrid({ photos }) {
                 children: photos.map((photo)=>{
                     const { src } = photo;
                     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-full pb-2.5 opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]",
+                        className: "w-full animate-[fadeIn_0.8s_ease-out_forwards] pb-2.5 opacity-0",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                             src: `${src}?w=161&fit=crop&auto=format`,
                             alt: "missing",
@@ -462,18 +470,18 @@ function PhotoGrid({ photos }) {
                             className: "block w-full"
                         }, void 0, false, {
                             fileName: "[project]/components/PhotoGrid.tsx",
-                            lineNumber: 22,
+                            lineNumber: 21,
                             columnNumber: 15
                         }, this)
                     }, src, false, {
                         fileName: "[project]/components/PhotoGrid.tsx",
-                        lineNumber: 18,
+                        lineNumber: 17,
                         columnNumber: 13
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "[project]/components/PhotoGrid.tsx",
-                lineNumber: 14,
+                lineNumber: 13,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -483,31 +491,31 @@ function PhotoGrid({ photos }) {
                     children: photos.map((photo)=>{
                         const { src } = photo;
                         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "break-inside-avoid mb-2 opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]",
+                            className: "mb-2 animate-[fadeIn_0.8s_ease-out_forwards] break-inside-avoid opacity-0",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                 src: `${src}?w=161&fit=crop&auto=format`,
                                 alt: "missing",
                                 loading: "lazy",
-                                className: "w-full h-auto block"
+                                className: "block h-auto w-full"
                             }, void 0, false, {
                                 fileName: "[project]/components/PhotoGrid.tsx",
-                                lineNumber: 44,
+                                lineNumber: 43,
                                 columnNumber: 17
                             }, this)
                         }, src, false, {
                             fileName: "[project]/components/PhotoGrid.tsx",
-                            lineNumber: 40,
+                            lineNumber: 39,
                             columnNumber: 15
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "[project]/components/PhotoGrid.tsx",
-                    lineNumber: 36,
+                    lineNumber: 35,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/PhotoGrid.tsx",
-                lineNumber: 35,
+                lineNumber: 34,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
@@ -519,7 +527,7 @@ function PhotoGrid({ photos }) {
       `
             }, void 0, false, {
                 fileName: "[project]/components/PhotoGrid.tsx",
-                lineNumber: 57,
+                lineNumber: 56,
                 columnNumber: 7
             }, this)
         ]
@@ -543,47 +551,47 @@ function photoArray() {
     return [
         {
             src: '/images/photography/film/Tio.jpg',
-            type: "film"
+            type: 'film'
         },
         {
             src: '/images/photography/film/CookingAlAire.jpg',
-            type: "film"
+            type: 'film'
         },
         {
             src: '/images/photography/film/TiempoTezo.jpg',
-            type: "film"
+            type: 'film'
         },
         {
             src: 'images/photography/film/Nopal.jpg',
-            type: "film"
+            type: 'film'
         },
         {
             src: '/images/photography/film/FatherTime.jpg',
-            type: "film"
+            type: 'film'
         },
         {
             src: '/images/photography/portraits/LunaBalloona.jpg',
-            type: "portrait"
+            type: 'portrait'
         },
         {
             src: '/images/photography/film/OdeToTheMets.jpg',
-            type: "film"
+            type: 'film'
         },
         {
             src: '/images/photography/film/PadreEHijo.jpg',
-            type: "film"
+            type: 'film'
         },
         {
             src: '/images/photography/film/Blur.jpg',
-            type: "film"
+            type: 'film'
         },
         {
             src: '/images/photography/film/Indigenismo.jpg',
-            type: "film"
+            type: 'film'
         },
         {
             src: '/images/photography/film/Basura.jpg',
-            type: "film"
+            type: 'film'
         }
     ];
 }
@@ -610,21 +618,21 @@ var _s = __turbopack_context__.k.signature();
 ;
 function PhotoTabs() {
     _s();
-    const [active, setActive] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].useState("all");
+    const [active, setActive] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].useState('all');
     const filteredPhotoArray = (type)=>{
         return (0, __TURBOPACK__imported__module__$5b$project$5d2f$utils$2f$PhotoArray$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["photoArray"])().filter((photo)=>photo.type === type);
     };
     const tabs = [
         {
-            key: "all",
+            key: 'all',
             label: 'All'
         },
         {
-            key: "film",
+            key: 'film',
             label: 'Film'
         },
         {
-            key: "portrait",
+            key: 'portrait',
             label: 'Portrait'
         }
     ];
@@ -646,19 +654,19 @@ function PhotoTabs() {
                             id: `photo-tab-${tab.key}`,
                             onClick: ()=>setActive(tab.key),
                             className: [
-                                "relative py-3 text-sm font-medium transition-colors cursor-pointer",
-                                "text-zinc-300 hover:text-white",
-                                "focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2 focus-visible:ring-offset-transparent",
-                                isActive ? "text-white" : ""
-                            ].join(" "),
+                                'relative cursor-pointer py-3 text-sm font-medium transition-colors',
+                                'text-zinc-300 hover:text-white',
+                                'focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2 focus-visible:ring-offset-transparent',
+                                isActive ? 'text-white' : ''
+                            ].join(' '),
                             children: [
                                 tab.label,
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: [
-                                        "pointer-events-none absolute left-0 right-0 -bottom-px h-0.5 rounded-full transition-opacity",
-                                        "bg-[#C8432A]",
-                                        isActive ? "opacity-100" : "opacity-0"
-                                    ].join(" ")
+                                        'pointer-events-none absolute right-0 -bottom-px left-0 h-0.5 rounded-full transition-opacity',
+                                        'bg-[#C8432A]',
+                                        isActive ? 'opacity-100' : 'opacity-0'
+                                    ].join(' ')
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/PhotoTabs.tsx",
                                     lineNumber: 53,
@@ -685,7 +693,7 @@ function PhotoTabs() {
                 role: "tabpanel",
                 id: "photo-tabpanel-all",
                 "aria-labelledby": "photo-tab-all",
-                hidden: active !== "all",
+                hidden: active !== 'all',
                 className: "py-6",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PhotoGrid$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     photos: (0, __TURBOPACK__imported__module__$5b$project$5d2f$utils$2f$PhotoArray$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["photoArray"])()
@@ -703,10 +711,10 @@ function PhotoTabs() {
                 role: "tabpanel",
                 id: "photo-tabpanel-film",
                 "aria-labelledby": "photo-tab-film",
-                hidden: active !== "film",
+                hidden: active !== 'film',
                 className: "py-6",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PhotoGrid$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                    photos: filteredPhotoArray("film")
+                    photos: filteredPhotoArray('film')
                 }, void 0, false, {
                     fileName: "[project]/components/sections/PhotoTabs.tsx",
                     lineNumber: 84,
@@ -721,10 +729,10 @@ function PhotoTabs() {
                 role: "tabpanel",
                 id: "photo-tabpanel-portrait",
                 "aria-labelledby": "photo-tab-portrait",
-                hidden: active !== "portrait",
+                hidden: active !== 'portrait',
                 className: "py-6",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PhotoGrid$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                    photos: filteredPhotoArray("portrait")
+                    photos: filteredPhotoArray('portrait')
                 }, void 0, false, {
                     fileName: "[project]/components/sections/PhotoTabs.tsx",
                     lineNumber: 94,
@@ -738,7 +746,7 @@ function PhotoTabs() {
         ]
     }, void 0, true);
 }
-_s(PhotoTabs, "Vqm0Jy9Kj6YrBA7K4tYV5mbiseE=");
+_s(PhotoTabs, "MeJs71uC5ZGaSHyzmbaOFKGfbaU=");
 _c = PhotoTabs;
 var _c;
 __turbopack_context__.k.register(_c, "PhotoTabs");
