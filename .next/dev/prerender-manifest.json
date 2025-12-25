@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "a5842d77abcf89b37f1347b62ac34e83",
-    "previewModeSigningKey": "3a20f6be31df3b6a6bd479d91e380957ee3b2b3ab8b3f4eb5e8c7edf5d2ffa2c",
-    "previewModeEncryptionKey": "875c568dabace5a0a8a685a41c43ca5dd2672734205a98a033d03117ffc987e9"
-  }
-}
+{"version":4,"routes":{"/projects/jarryfall":{},"/projects/earworm":{},"/projects/cuny-hub":{},"/projects/recipe-finder":{},"/projects/creativo":{},"/projects/cuny-yak":{},"/projects/green-print":{}},"dynamicRoutes":{"/projects/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/projects/[slug]","routeRegex":"^\\/projects\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"a5842d77abcf89b37f1347b62ac34e83","previewModeSigningKey":"3a20f6be31df3b6a6bd479d91e380957ee3b2b3ab8b3f4eb5e8c7edf5d2ffa2c","previewModeEncryptionKey":"875c568dabace5a0a8a685a41c43ca5dd2672734205a98a033d03117ffc987e9"}}

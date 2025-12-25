@@ -997,3 +997,378 @@ Unterminated string constant
 [70:57:37.309] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [70:57:40.133] Browser WARN    Image with src "/images/projects/jarryfall.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[71:01:33.062] Server  LOG      ✓ Compiled in 39ms
+[72:19:29.257] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[72:22:15.769] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[72:35:00.420] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[144:51:20.460] Browser ERROR   ./app/projects/page.tsx:65:25
+Parsing ecmascript source code failed
+  63 |                       </div>
+  64 |                     </div>
+> 65 |                   </div>
+     |                         ^
+> 66 |
+     | ^
+> 67 |                   {/* Text */}
+     | ^^^^^^^^^^^^^^^^^^^
+  68 |                   <div className="w-1/2">
+  69 |                     <h4
+  70 |                       className={`text-2xl font-medium text-[lightGray] ${
+
+Expected '</', got 'jsx text (
+
+                  )'
+[144:52:50.433] Browser WARN    Image with src "/images/projects/jarryfall.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[144:52:50.434] Browser WARN    Image with src "/images/projects/earworm.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[144:52:50.434] Browser WARN    Image with src "/images/projects/cunyhub.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[144:52:50.434] Browser WARN    Image with src "/images/projects/recipefinder.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[144:52:50.434] Browser WARN    Image with src "/images/projects/creativo.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[144:52:50.434] Browser WARN    Image with src "/images/projects/cunyyak.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[144:52:50.434] Browser WARN    Image with src "/images/projects/greenprint.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[145:06:43.232] Server  LOG      ✓ Compiled in 65ms
+[145:06:43.272] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[145:06:43.275] Server  LOG      ✓ Compiled in 29ms
+[145:06:43.839] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:07:32.186] Browser WARN    Image with src "/images/projects/jarryfall.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[145:07:47.037] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:07:51.116] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:09:19.148] Server  LOG      ✓ Compiled in 23ms
+[145:09:37.804] Server  LOG      ✓ Compiled in 33ms
+[145:09:46.515] Server  LOG      ✓ Compiled in 13ms
+[145:09:58.731] Server  WARN    Error: Route "/projects/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:09:58.731] Server  LOG     params {}
+[145:09:58.734] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:11:24.667] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:11:24.668] Server  LOG     params undefined
+[145:11:24.675] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:11:27.885] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:11:28.586] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:11:28.586] Server  LOG     params undefined
+[145:11:28.592] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:11:47.338] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:11:47.339] Server  LOG     params undefined
+[145:11:47.346] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:11:51.880] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:11:51.880] Server  LOG     params undefined
+[145:11:51.885] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:11:51.905] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:12:04.408] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:12:04.408] Server  LOG     params undefined
+[145:12:04.413] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:12:04.424] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:12:06.180] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:12:06.202] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:12:11.700] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:12:12.338] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:12:12.351] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:12:12.481] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'slug')
+[145:12:33.220] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:12:33.715] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:12:34.464] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'slug')
+[145:12:35.948] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:12:36.432] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:12:37.463] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'slug')
+[145:12:48.676] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:12:49.162] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:12:49.460] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'slug')
+[145:12:54.465] Browser ERROR   ./app/projects/[slug]/page.tsx:14:58
+Parsing ecmascript source code failed
+  12 | export default function ProjectPage({ params }: ProjectsPageProps) {
+  13 |
+> 14 |   const project = projectInfo().find((p) => p.params === await params.value.slug)
+     |                                                          ^^^^^
+  15 |   if (!project) return notFound()
+  16 |
+  17 |   return (
+
+await isn't allowed in non-async function
+[145:13:00.505] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:13:00.973] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:13:01.465] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'slug')
+[145:13:03.355] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:13:03.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:13:04.464] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'slug')
+[145:13:18.978] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:13:19.536] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:13:20.463] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'slug')
+[145:13:21.676] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:13:22.342] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:13:22.342] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'slug')
+[145:13:25.213] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:13:27.004] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:13:27.133] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'slug')
+[145:13:41.387] Server  WARN    Error: Route "/projects/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:13:41.387] Server  LOG     {}
+[145:13:41.891] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:13:45.873] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:13:47.313] Server  WARN    Error: Route "/projects/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:13:47.313] Server  LOG     {}
+[145:14:00.840] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:14:00.840] Server  LOG     undefined
+[145:14:06.093] Server  LOG     undefined
+[145:14:10.543] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:14:10.996] Server  LOG     undefined
+[145:14:28.106] Server  WARN    Error: Route "/projects/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:14:28.106] Server  LOG     {}
+[145:14:28.111] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:14:28.464] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'slug')
+[145:15:40.923] Server  WARN    Error: Route "/projects/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:15:40.923] Server  LOG     {}
+[145:15:40.929] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'slug')
+[145:15:41.426] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:15:41.426] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'slug')
+[145:15:59.459] Browser ERROR   ./app/projects/[slug]/page.tsx:88:25
+Ecmascript file had an error
+  86 |
+  87 |
+> 88 | export default function ProjectPage({ params }: ProjectsPageProps) {
+     |                         ^^^^^^^^^^^
+  89 |   console.log(params)
+  90 |   const project = projectInfo().find((p) => p.params === params.value.slug)
+  91 |   if (!project) return notFound()
+
+the name `ProjectPage` is defined multiple times
+[145:15:59.459] Browser ERROR   ./app/projects/[slug]/page.tsx:88:1
+Ecmascript file had an error
+   86 |
+   87 |
+>  88 | export default function ProjectPage({ params }: ProjectsPageProps) {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  89 |   console.log(params)
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  90 |   const project = projectInfo().find((p) => p.params === params.value.slug)
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  91 |   if (!project) return notFound()
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  92 |
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  93 |   return (
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  94 |     <main className="mx-auto max-w-4xl px-4 py-12">
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  95 |
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  96 |
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  97 |      
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  98 |     </main>
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  99 |   )
+      | ^^^^^^^^^^^^^^^^^^^^^
+> 100 | }
+      | ^^
+  101 |
+
+the name `default` is exported multiple times
+[145:15:59.459] Browser ERROR   ./app/projects/[slug]/page.tsx:79:10
+Ecmascript file had an error
+  77 |   )
+  78 | }
+> 79 | import { notFound } from 'next/navigation'
+     |          ^^^^^^^^
+  80 |
+  81 | import { projectInfo } from '@/utils/ProjectsInfo'
+  82 |
+
+the name `notFound` is defined multiple times
+[145:15:59.459] Browser ERROR   ./app/projects/[slug]/page.tsx:81:10
+Ecmascript file had an error
+  79 | import { notFound } from 'next/navigation'
+  80 |
+> 81 | import { projectInfo } from '@/utils/ProjectsInfo'
+     |          ^^^^^^^^^^^
+  82 |
+  83 | type ProjectsPageProps = { 
+  84 |   params: { value: {slug: string} } 
+
+the name `projectInfo` is defined multiple times
+[145:16:01.461] Browser ERROR   ./app/projects/[slug]/page.tsx:88:25
+Ecmascript file had an error
+  86 |
+  87 |
+> 88 | export default function ProjectPage({ params }: ProjectsPageProps) {
+     |                         ^^^^^^^^^^^
+  89 |   console.log(params)
+  90 |   const project = projectInfo().find((p) => p.params === params.value.slug)
+  91 |   if (!project) return notFound()
+
+the name `ProjectPage` is defined multiple times
+[145:16:01.461] Browser ERROR   ./app/projects/[slug]/page.tsx:88:1
+Ecmascript file had an error
+   86 |
+   87 |
+>  88 | export default function ProjectPage({ params }: ProjectsPageProps) {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  89 |   console.log(params)
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  90 |   const project = projectInfo().find((p) => p.params === params.value.slug)
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  91 |   if (!project) return notFound()
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  92 |
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  93 |   return (
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  94 |     <main className="mx-auto max-w-4xl px-4 py-12">
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  95 |
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  96 |
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  97 |      
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  98 |     </main>
+      | ^^^^^^^^^^^^^^^^^^^^^
+>  99 |   )
+      | ^^^^^^^^^^^^^^^^^^^^^
+> 100 | }
+      | ^^
+  101 |
+
+the name `default` is exported multiple times
+[145:16:01.461] Browser ERROR   ./app/projects/[slug]/page.tsx:79:10
+Ecmascript file had an error
+  77 |   )
+  78 | }
+> 79 | import { notFound } from 'next/navigation'
+     |          ^^^^^^^^
+  80 |
+  81 | import { projectInfo } from '@/utils/ProjectsInfo'
+  82 |
+
+the name `notFound` is defined multiple times
+[145:16:01.461] Browser ERROR   ./app/projects/[slug]/page.tsx:81:10
+Ecmascript file had an error
+  79 | import { notFound } from 'next/navigation'
+  80 |
+> 81 | import { projectInfo } from '@/utils/ProjectsInfo'
+     |          ^^^^^^^^^^^
+  82 |
+  83 | type ProjectsPageProps = { 
+  84 |   params: { value: {slug: string} } 
+
+the name `projectInfo` is defined multiple times
+[145:16:42.922] Server  ERROR    ⨯ ReferenceError: projectInfo is not defined
+[145:16:42.949] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:16:42.992] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:16:43.217] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:16:43.217] Browser ERROR   uncaughtError: ReferenceError: projectInfo is not defined
+[145:16:43.404] Server  ERROR    ⨯ Failed to generate static paths for /projects/[slug]:
+[145:16:43.408] Server  ERROR   ReferenceError: projectInfo is not defined
+[145:17:07.123] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:17:07.137] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:17:07.344] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:17:14.247] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:17:14.263] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:17:31.411] Browser WARN    Image with src "/images/projects/jarryfall.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[145:17:32.054] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:17:32.163] Browser WARN    Image with src "/images/projects/jarryfall.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[145:17:32.656] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:17:32.674] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:17:48.481] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:17:48.498] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:18:11.863] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:18:11.880] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:19:24.531] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:19:24.535] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:19:24.560] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:19:50.973] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:19:50.988] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:19:51.026] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:20:00.285] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:20:00.399] Browser WARN    Image with src "/images/projects/jarryfall.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[145:20:00.715] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:20:00.722] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:20:00.738] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:22:06.397] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:22:06.397] Server  LOG     Requested slug: undefined
+[145:22:06.404] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:22:06.422] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:22:08.087] Server  WARN    Error: Route "/projects/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:22:08.087] Server  LOG     Requested slug: {}
+[145:22:08.099] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:22:08.102] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:22:08.116] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:22:11.711] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:22:11.832] Browser WARN    Image with src "/images/projects/jarryfall.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[145:22:14.929] Server  WARN    Error: Route "/projects/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:22:14.929] Server  LOG     Requested slug: {}
+[145:22:14.942] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:22:14.945] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:22:14.956] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:24:34.836] Server  WARN    Error: Route "/projects/[slug]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:24:34.836] Server  LOG     Requested slug: {}
+[145:24:34.848] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:24:34.851] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:24:34.872] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:24:34.875] Server  LOG      ✓ Compiled in 71ms
+[145:24:48.904] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:24:48.929] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:25:10.475] Server  LOG      ✓ Compiled in 18ms
+[145:26:15.868] Server  LOG      ✓ Compiled in 19ms
+[145:26:36.307] Server  LOG      ✓ Compiled in 32ms
+[145:26:43.316] Browser ERROR   ./app/projects/[slug]/page.tsx:4:10
+Ecmascript file had an error
+  2 | import { redirect, notFound } from 'next/navigation'
+  3 |
+> 4 | import { redirect } from 'next/navigation'
+    |          ^^^^^^^^
+  5 |
+  6 | type Props = { params: { slug: string } }
+  7 |
+
+the name `redirect` is defined multiple times
+[145:26:49.466] Browser ERROR   ./app/projects/[slug]/page.tsx:4:10
+Ecmascript file had an error
+  2 | import { redirect, notFound } from 'next/navigation'
+  3 |
+> 4 | import { redirect } from 'next/navigation'
+    |          ^^^^^^^^
+  5 |
+  6 | type Props = { params: { slug: string } }
+  7 |
+
+the name `redirect` is defined multiple times
+[145:26:49.946] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[145:26:50.107] Browser ERROR   ./app/projects/[slug]/page.tsx:4:10
+Ecmascript file had an error
+  2 | import { redirect, notFound } from 'next/navigation'
+  3 |
+> 4 | import { redirect } from 'next/navigation'
+    |          ^^^^^^^^
+  5 |
+  6 | type Props = { params: { slug: string } }
+  7 |
+
+the name `redirect` is defined multiple times
+[145:26:50.107] Browser WARN    Image with src "/images/projects/jarryfall.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[145:26:50.107] Browser ERROR   ./app/projects/[slug]/page.tsx:4:10
+Ecmascript file had an error
+  2 | import { redirect, notFound } from 'next/navigation'
+  3 |
+> 4 | import { redirect } from 'next/navigation'
+    |          ^^^^^^^^
+  5 |
+  6 | type Props = { params: { slug: string } }
+  7 |
+
+the name `redirect` is defined multiple times
+[145:26:58.865] Server  LOG      ✓ Compiled in 21ms
+[145:27:05.423] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:27:44.254] Server  LOG      ✓ Compiled in 19ms
+[145:27:46.839] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:27:51.073] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:27:53.836] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:28:07.471] Server  LOG      ✓ Compiled in 17ms
+[145:28:10.696] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:28:10.715] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:28:11.706] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:28:11.721] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[145:28:28.430] Server  LOG      ✓ Compiled in 13ms

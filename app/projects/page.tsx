@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -45,18 +46,27 @@ export default function Projects() {
                   }`}
                 >
                   {/* Image */}
-                  <div className="w-1/2 flex items-center justify-center md:col-span-6">
-                    <div className="relative w-full aspect-[4/3] rounded-[20px] overflow-hidden">
+                  <Link
+                    href={`/projects/${project.params}`}
+                    className="group flex w-3/4 items-center justify-center md:col-span-6"
+                  >
+                    <div className="relative aspect-[4/3] w-full cursor-pointer overflow-hidden rounded-[20px]">
                       <Image
                         src={project.image}
                         alt={title}
                         fill
                         sizes="(max-width: 768px) 100vw, 50vw"
-                        className="object-cover transition-transform duration-200 group-hover:scale-105"
+                        className="object-cover transition-all duration-200 group-hover:scale-110 group-hover:opacity-30 group-hover:outline group-hover:outline-[3px] group-hover:outline-gray-300"
                         loading="lazy"
                       />
+
+                      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center opacity-0 transition-opacity duration-200 group-hover:opacity-100">
+                        <h5 className="text-2xl font-bold text-gray-300">
+                          {title}
+                        </h5>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
 
                   {/* Text */}
                   <div className="w-1/2">
